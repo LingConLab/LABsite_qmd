@@ -10,7 +10,6 @@ editor_options:
 ```{r}
 #| column: screen
 #| fig-cap: "с. Арчо, Ахвахский район, Дагестан, Тимофей Мухин"
-#| fig-cap-location: margin
 
 knitr::include_graphics("../images/mukhin_archo.jpg")
 ```
@@ -75,7 +74,6 @@ map.feature(fe$lang,
 ```{r}
 #| column: screen
 #| fig-cap: "д. Пушкино-Михалёвская, Вельский район, Архангельская область, Михаил Даниэль"
-#| fig-cap-location: margin
 
 knitr::include_graphics("../images/daniel_pushkino_1.jpg")
 ```

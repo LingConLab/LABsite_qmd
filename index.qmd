@@ -10,10 +10,10 @@ One of the tasks of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/
 ```{r}
 #| column: screen
 #| fig-cap: "Archo, Akhvakhsky District, Daghestan by Timofey Mukhin"
-#| fig-cap-location: margin
 
 knitr::include_graphics("images/mukhin_archo.jpg")
 ```
+
 
 ## Geography of data sources for corpora and dictionaries
 
@@ -74,7 +74,6 @@ map.feature(fe$lang,
 ```{r}
 #| column: screen
 #| fig-cap: "Pushkino-Mikhalevskaja, Velsky District, Arkhangelskaja oblastj by Michael Daniel"
-#| fig-cap-location: margin
 
 knitr::include_graphics("images/daniel_pushkino_1.jpg")
 ```

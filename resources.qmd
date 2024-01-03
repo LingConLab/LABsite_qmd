@@ -60,7 +60,6 @@ The spoken corpora are developed in cooperation with researchers from other univ
 ```{r}
 #| column: screen
 #| fig-cap: "Pushkino-Mikhalevskaja, Velsky District, Arkhangelskaja oblastj by Michael Daniel"
-#| fig-cap-location: margin
 
 knitr::include_graphics("images/daniel_pushkino_2.jpg")
 ```
@@ -76,7 +75,6 @@ Dictionaries contain audio and text data from several villages of Daghestan. The
 ```{r}
 #| column: screen
 #| fig-cap: "Kina, Rutulsky District, Daghestan by Timur Maisak"
-#| fig-cap-location: margin
 
 knitr::include_graphics("images/maisak_kina.jpg")
 ```
@@ -92,7 +90,6 @@ In addition to dictionaries and corpora, the Laboratory also develops databases 
 ```{r}
 #| column: screen
 #| fig-cap: "Karata area, Akhvakhsky District, Daghestan by Timofey Mukhin"
-#| fig-cap-location: margin
 
 knitr::include_graphics("images/mukhin_karata.jpg")
 ```

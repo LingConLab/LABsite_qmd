@@ -59,7 +59,6 @@ listing:
 ```{r}
 #| column: screen
 #| fig-cap: "д. Пушкино-Михалёвская, Вельский район, Архангельская область, Михаил Даниэль"
-#| fig-cap-location: margin
 
 knitr::include_graphics("../images/daniel_pushkino_2.jpg")
 ```
@@ -75,7 +74,6 @@ knitr::include_graphics("../images/daniel_pushkino_2.jpg")
 ```{r}
 #| column: screen
 #| fig-cap: "с. Кина, Рутульский район, Дагестан, Тимур Майсак"
-#| fig-cap-location: margin
 
 knitr::include_graphics("../images/maisak_kina.jpg")
 ```
@@ -91,7 +89,6 @@ knitr::include_graphics("../images/maisak_kina.jpg")
 ```{r}
 #| column: screen
 #| fig-cap: " Окрестности с. Карата, Ахвахский район, Дагестан, Тимофей Мухин"
-#| fig-cap-location: margin
 
 knitr::include_graphics("../images/mukhin_karata.jpg")
 ```
