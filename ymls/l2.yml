@@ -1,2 +1,25 @@
-[]
+- text: Corpus of Karelian Russian
+  href: http://lingconlab.ru/karelrus/
+  content: 'Tokens: 578 646'
+- text: Corpus of Russian spoken by the Besermans
+  href: http://lingconlab.ru/BesermanRus/
+  content: 'Tokens: 97 216'
+- text: Corpus of Russian spoken in Bashkortostan
+  href: http://lingconlab.ru/BashkirRus/
+  content: 'Tokens: 93 127'
+- text: Corpus of Russian spoken in Chuvashia
+  href: http://lingconlab.ru/ChuvashRus/
+  content: 'Tokens: 46 307'
+- text: Corpus of Russian spoken in Daghestan
+  href: http://parasolcorpus.org/dagrus/
+  content: 'Tokens: 376 717'
+- text: Corpus of Russian spoken in Mari El
+  href: http://lingconlab.ru/MariRus/
+  content: 'Tokens: 69 109'
+- text: Romani Russian Corpus
+  href: http://lingconlab.ru/romarus/
+  content: 'Tokens: 41 767'
+- text: Yakut-Russian Code-Switching Corpus
+  href: http://lingconlab.ru/cs_yakut/
+  content: 'Tokens: 15 139'
 

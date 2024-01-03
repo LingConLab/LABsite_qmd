@@ -3,8 +3,9 @@ library(ymlthis)
 library(yaml)
 
 read_tsv("data.tsv") |> 
-  filter(ignore != "ignore") ->
+  filter(is.na(ignore)) ->
   df
+
 map(list.files("ymls", pattern = ".yml", full.names = TRUE), file.remove)
 
 # dial --------------------------------------------------------------------
