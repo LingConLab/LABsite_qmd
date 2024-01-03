@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.533">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Linguistic Convergence Laboratory</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.1/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.1/leaflet-providers-plugin.js"></script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Linguistic Convergence Laboratory</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="././ru/index.html"> 
+<span class="menu-text">ru</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="././resources.html"> 
+<span class="menu-text">All resources</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dialect-corpora" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Dialect corpora</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dialect-corpora">    
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/lukhteza/">
+ <span class="dropdown-text">Corpus of Lukh and Teza river basins dialects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/opochka/">
+ <span class="dropdown-text">Corpus of Opochetsky dialects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/rogovatka/">
+ <span class="dropdown-text">Corpus of Rogovatka dialect</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/zvenigorod/">
+ <span class="dropdown-text">Corpus of Russian spoken in Zvenigorod</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/shetnevo/">
+ <span class="dropdown-text">Corpus of Shetnevo and Makeevo</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/SpiridonovaBuda/">
+ <span class="dropdown-text">Corpus of Spiridonova Buda dialect</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/keba/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in Keba</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/khislavichi/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in Khislavichi district</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/manturovo/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in Manturovo</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/nekhochi/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in Nekhochi</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/tserkovnoe/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in Tserkovnoe</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/mikhaylov/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in the Mikhaylov area</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/malinino/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in the village Malinino</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/veegora/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in the village Veegora</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/don_rnd/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in the villages of the Don river</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/dvina/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in the villages of the Middle Northern Dvina</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/pinega/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in the villages of the Middle Pinega</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/pyoza/">
+ <span class="dropdown-text">Corpus of the Russian dialect spoken in the villages of the Middle Pyoza</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/luzhnikovo/">
+ <span class="dropdown-text">Luzhnikovo Corpus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://lingconlab.github.io/PRuD/">
+ <span class="dropdown-text">Prosody of Russian Dialects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/yelets/">
+ <span class="dropdown-text">Svishni and Trostnoe Corpus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/vaduga/">
+ <span class="dropdown-text">Upper Pinega and Vyya Corpus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://www.parasolcorpus.org/Pushkino/">
+ <span class="dropdown-text">Ustja River Basin Corpus</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bilingual-russian" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Bilingual Russian</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bilingual-russian">    
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/karelrus/">
+ <span class="dropdown-text">Corpus of Karelian Russian</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/BesermanRus/">
+ <span class="dropdown-text">Corpus of Russian spoken by the Besermans</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/BashkirRus/">
+ <span class="dropdown-text">Corpus of Russian spoken in Bashkortostan</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/ChuvashRus/">
+ <span class="dropdown-text">Corpus of Russian spoken in Chuvashia</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://parasolcorpus.org/dagrus/">
+ <span class="dropdown-text">Corpus of Russian spoken in Daghestan</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/MariRus/">
+ <span class="dropdown-text">Corpus of Russian spoken in Mari El</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/romarus/">
+ <span class="dropdown-text">Romani Russian Corpus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/cs_yakut/">
+ <span class="dropdown-text">Yakut-Russian Code-Switching Corpus</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-minority-languages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Minority languages</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-minority-languages">    
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/botlikh/">
+ <span class="dropdown-text">Botlikh corpus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/standard_dargwa/">
+ <span class="dropdown-text">Corpus of Standard Dargwa</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/kadar_dargwa/">
+ <span class="dropdown-text">Spoken Corpus of Kadar Dargwa</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/muira_dargwa/">
+ <span class="dropdown-text">Spoken Corpus of Muira Dargwa</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/spoken_besleney/">
+ <span class="dropdown-text">Spoken Corpus of the Besleney Dialect of East Circassian</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/spoken_abaza/">
+ <span class="dropdown-text">Spoken corpus of Abaza</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/spoken_adyghe/">
+ <span class="dropdown-text">Spoken corpus of Adyghe</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/spoken_bashkir/">
+ <span class="dropdown-text">Spoken corpus of Bashkir</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/spoken_khakas/">
+ <span class="dropdown-text">Spoken corpus of Khakas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/spoken_meadow_mari/">
+ <span class="dropdown-text">Spoken corpus of Meadow Mari</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://lingconlab.github.io/andic_dictionary_examples_database/">
+ <span class="dropdown-text">The Andic Dictionaries Examples Database</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/tsnal_lezgi/">
+ <span class="dropdown-text">Tsnal Lezgi spoken corpus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/tanti_dargwa/search">
+ <span class="dropdown-text">Сorpus of Tanti Dargwa</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-dictionaries" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Dictionaries</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-dictionaries">    
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/dargwa_dict/">
+ <span class="dropdown-text">Dictionary of Dargwa languages</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/MehwebDict/">
+ <span class="dropdown-text">Dictionary of the Mehweb language</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://linghub.ru/rutuldict/">
+ <span class="dropdown-text">Dictionary of the Rutul language</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/TukitaDict/">
+ <span class="dropdown-text">Dictionary of the Tukita language</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Other Resources</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-other-resources">    
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/dagloans/">
+ <span class="dropdown-text">DagLoans</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/dagswadesh/">
+ <span class="dropdown-text">DagSwadesh</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/EDGrPol/">
+ <span class="dropdown-text">Digital digtionary of Greek and Polish borowings XI-XVII</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/parabible/">
+ <span class="dropdown-text">Parabible</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="http://lingconlab.ru/dagatlas/">
+ <span class="dropdown-text">Typological Atlas of the Languages of Daghestan</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+
+
+<section id="linguistic-convergence-laboratory" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="linguistic-convergence-laboratory">Linguistic Convergence Laboratory</h2>
+<p>One of the tasks of the <a href="https://ilcl.hse.ru/en/">Linguistic Convergence Laboratory</a> is the creation of language resources. In cooperation with other linguists we collect data for <a href="resources.html#dictionaries">dictionaries</a>, develop <a href="resources.html#spoken-corpora">spoken corpora</a> of bilingual, dialect, and regional variants of Russian and minority languages of Russia. Beyond this we also develop <a href="resources.html#other">resources</a> for quantitative research of language contact and distribution of various grammatical features in Daghestan, a multilingual republic in Russia.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="img-fluid quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="images/mukhin_archo.jpg" class="img-fluid figure-img column-screen" width="772"></p>
+<figcaption>Archo, Akhvakhsky District, Daghestan by Timofey Mukhin</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="geography-of-data-sources-for-corpora-and-dictionaries" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="geography-of-data-sources-for-corpora-and-dictionaries">Geography of data sources for corpora and dictionaries</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset page-columns page-full">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">All</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Daghestan</a></li></ul>
+<div class="tab-content page-columns page-full">
+<div id="tabset-1-1" class="tab-pane active page-columns page-full" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-screen">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-244aaddf2639520a3f5a" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-244aaddf2639520a3f5a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addTiles","args":["Esri.WorldGrayCanvas",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldGrayCanvas",null,"Esri.WorldGrayCanvas",{"errorTileUrl":"","noWrap":false,"opacity":1,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[53.73774394,58.01763035,56.15800109,42.06677379,42.2787296,42.36709295,42.02391162,42.02448591,42.63540419,42.02074134,42.73268493,41.99763485,42.07004342,41.6166,42.1731202,42.97836309,42.2528,42.07520382,42.78148532,42.56102793,42.57056,41.75161155,42.34340661,42.15255375,42.349783,42.09087713,42.24624404,42.20521859,61.5840497,64.96367096,61.52887061,64.6256051,61.88543862,61.69981975,58.00197776,62.09977727,56.96135324,56.97633321,64.35296829000001,54.03100203,53.99736518,54.12557365,53.97977414,54.13313367,56.63162239,56.66074865,56.64914706,56.6518927,56.66192686,56.68935588,56.72199584,56.69510052,57.40276341,52.29714519,65.79154042,53.43927272,56.81753039,56.79410375,56.81320003,56.81217883,56.77160879,51.25013418,56.22927238,56.21463936,52.29603195,62.66236876,62.68166952,62.94220939,62.93915634,62.94455674,61.50111116,55.72446427,58.12741514,47.53933391,47.48119837,62.484937,62.012085,64.288509,63.442014,63.43472,63.63344,63.71437,63.95333,63.971728,42.2568,41.6186,42.57076,42.4257,44.04614598,45.04732563,45.0640203,45.07688951,53.72758163,53.82462214,45.05366652,52.81184385,53.21588574,52.84550829,52.81394105,56.95781881,42.4257,42.09222,42.618485,41.69631754,52.46194,52.698905,54.12917,54.33944,54.282996,42.4003,42.3966,42.665,42.5024,42.7428,42.6501,42.3316,42.5727,42.665,42.1655583],[58.84175214,52.15042724,46.76070423,46.86868912,47.23117667,47.24507509,48.06286306,47.96547434,47.22373738,48.00888326,46.32176207,47.58435465,46.86125184,47.2647,47.79449062,47.48282493,47.0472,46.41179387,46.3174228,46.30162993,46.37278,47.92894777,47.32975273,47.66966563,47.30274704,46.91793154,47.00053115,47.82786862,32.84259866,30.55972679,32.82902349,30.59937775,34.35907974,33.62192192,56.23228233,129.7284794,48.78415752,48.79855642,46.20578404,31.89814767,32.00736634,32.00218658,31.99372067,32.01403531,42.23476521,42.42448388,41.83607824,41.70389578,41.73584579,41.6998953,42.63165596,41.63889586,34.13254462,39.34909665,46.15583678,34.92670885,28.68758591,28.68412406,28.68239364,28.6973235,28.67069343,38.37745429,31.61327475,31.62124118,31.78794776,41.35828599,46.49360741,46.13215149,46.42674763,46.37503928,42.65695604,36.83595508,44.3564281,40.64226054,40.47855162,43.776278,45.213367,44.326406,46.525869,46.54139,45.52426,45.41804,44.51,44.513615,47.0512,47.2667,46.37298,47.4388,41.7812629,40.180409,40.17600355,40.18626859,58.84260186,58.88647481,39.94593254,89.98742813,90.04742874,90.10717158,90.04211831000001,48.78028179,47.4388,47.69667,47.288081,47.99850103,38.26556,38.374125,39.26306,39.06333,39.201418,46.3037,46.1041,46.22,45.995,46.2252,46.3151,45.9227,46.3724,46.22,47.3106305],6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":["#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#5F9EA0","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845"],"fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Baimovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BashkirRus/ \"> Corpus of Russian spoken in Bashkortostan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Shamardan <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/BesermanRus/ \"> Corpus of Russian spoken by the Besermans","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Maloye Karachkino <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/ChuvashRus/ \"> Corpus of Russian spoken in Chuvashia","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Archib <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Balkhar <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Verkhniye Ubeki <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Darwag <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Dubek <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Durangi <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Yersi <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Zilo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Itsari <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kalib <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kina <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Mallakent <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Makhachkala <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Megeb <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Nikar <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Rikvani <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Tlibisho <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Tukita <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Khiv <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Cukhta <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Chishili <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Chuni <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Shalib <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Shangoda <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Yangikent <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Vedlozero <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Voknavolok <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kinerma <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kostomuksha <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Petrozavodsk <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Pryazha <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/karelrus/ \"> Corpus of Karelian Russian","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Perm <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/romarus/ \"> Romani Russian Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Yakutsk <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/cs_yakut/ \"> Yakut-Russian Code-Switching Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Staryj Torʺâl <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MariRus/ \"> Corpus of Russian spoken in Mari El","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Ušemnur <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MariRus/ \"> Corpus of Russian spoken in Mari El","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Keba <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/keba/ \"> Corpus of the Russian dialect spoken in Keba","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Zhanvil <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Zhygalki <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Malye Khutora <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Soino <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Stajki <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/khislavichi/ \"> Corpus of the Russian dialect spoken in Khislavichi district","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Mugreevo-Nikolskoe <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Nizhnij Landekh <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Preobrazhenskoe <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Hotiml <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Domnino <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Ryapolovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Pogorelka <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Volokobino <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/lukhteza/ \"> Corpus of Lukh and Teza river basins dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Luzhnikovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/luzhnikovo/ \"> Luzhnikovo Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Malinino <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/malinino/ \"> Corpus of the Russian dialect spoken in the village Malinino","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Moseyevo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/pyoza/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Pyoza","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Nekhochi <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/nekhochi/ \"> Corpus of the Russian dialect spoken in Nekhochi","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Balashi <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/opochka/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Barabany <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/opochka/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Glazanovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/opochka/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kadnikovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/opochka/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Purshevo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/opochka/ \"> Corpus of Opochetsky dialects","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Rogovatoye <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/rogovatka/ \"> Corpus of Rogovatka dialect","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Shetnevo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/shetnevo/ \"> Corpus of Shetnevo and Makeevo","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Makeevo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/shetnevo/ \"> Corpus of Shetnevo and Makeevo","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Spiridonova Buda <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/SpiridonovaBuda/ \"> Corpus of Spiridonova Buda dialect","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Niz <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/tserkovnoe/ \"> Corpus of the Russian dialect spoken in Tserkovnoe","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Vadyuga <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/vaduga/ \"> Upper Pinega and Vyya Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Tineva <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/vaduga/ \"> Upper Pinega and Vyya Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Zaytsevo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/vaduga/ \"> Upper Pinega and Vyya Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Podolskaya <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/vaduga/ \"> Upper Pinega and Vyya Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Mikhalevskaya <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://www.parasolcorpus.org/Pushkino/ \"> Ustja River Basin Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Zvenigorod <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/zvenigorod/ \"> Corpus of Russian spoken in Zvenigorod","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Угоры <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/manturovo/ \"> Corpus of the Russian dialect spoken in Manturovo","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Razdorskaya <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/don_rnd/ \"> Corpus of the Russian dialect spoken in the villages of the Don river","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Melikhovskaya <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/don_rnd/ \"> Corpus of the Russian dialect spoken in the villages of the Don river","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Seltso <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/dvina/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Northern Dvina","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Timoshino <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/dvina/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Northern Dvina","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Veegora <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/veegora/ \"> Corpus of the Russian dialect spoken in the village Veegora","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Nyukhcha <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/pinega/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Pinega","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Zanyukhcha <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/pinega/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Pinega","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Lavela <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/pinega/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Pinega","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Yavzora <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/pinega/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Pinega","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kevrola <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/pinega/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Pinega","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Vaymusha <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/pinega/ \"> Corpus of the Russian dialect spoken in the villages of the Middle Pinega","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Place name:<\/b> Megeb <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Dictionary of the Mehweb language","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Place name:<\/b> Kina <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Dictionary of the Rutul language","<a href='https://glottolog.org/resource/languoid/id/kara1516' target='_blank'>Karata<\/a><br><b>Place name:<\/b> Tukita <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Dictionary of the Tukita language","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/dargwa_dict/ \"> Dictionary of Dargwa languages","<a href='https://glottolog.org/resource/languoid/id/abaz1241' target='_blank'>Abaza<\/a><br><b>Place name:<\/b> Inzhich-Chukun <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_abaza/ \"> Spoken corpus of Abaza","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Place name:<\/b> Kabekhabl <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Place name:<\/b> Pshicho <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/adyg1241' target='_blank'>Adyghe<\/a><br><b>Place name:<\/b> Khatazhukay <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_adyghe/ \"> Spoken corpus of Adyghe","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Place name:<\/b> Baimovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Spoken corpus of Bashkir","<a href='https://glottolog.org/resource/languoid/id/bash1264' target='_blank'>Bashkir<\/a><br><b>Place name:<\/b> Rakhmetovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_bashkir/ \"> Spoken corpus of Bashkir","<a href='https://glottolog.org/resource/languoid/id/kaba1278' target='_blank'>Kabardian<\/a><br><b>Place name:<\/b> Ulyap <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_besleney/ \"> Spoken Corpus of the Besleney Dialect of East Circassian","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Place name:<\/b> Butrachty <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Place name:<\/b> Kazanovka <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Place name:<\/b> Karagay <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/khak1248' target='_blank'>Khakas<\/a><br><b>Place name:<\/b> Chylany <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_khakas/ \"> Spoken corpus of Khakas","<a href='https://glottolog.org/resource/languoid/id/east2328' target='_blank'>Eastern Mari<\/a><br><b>Place name:<\/b> Staryj Torjal <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/spoken_meadow_mari/ \"> Spoken corpus of Meadow Mari","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/standard_dargwa/ \"> Corpus of Standard Dargwa","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/muira_dargwa/ \"> Spoken Corpus of Muira Dargwa","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> Kadar <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/kadar_dargwa/ \"> Spoken Corpus of Kadar Dargwa","<a href='https://glottolog.org/resource/languoid/id/lezg1247' target='_blank'>Lezgian<\/a><br><b>Place name:<\/b> Cnal <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/tsnal_lezgi/ \"> Tsnal Lezgi spoken corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Svishni <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/yelets/ \"> Svishni and Trostnoe Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Svishni <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/yelets/ \"> Svishni and Trostnoe Corpus","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Pecherniki <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/mikhaylov/ \"> Corpus of the Russian dialect spoken in the Mikhaylov area","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Novopanskoye <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/mikhaylov/ \"> Corpus of the Russian dialect spoken in the Mikhaylov area","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Khavertovo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/mikhaylov/ \"> Corpus of the Russian dialect spoken in the Mikhaylov area","<a href='https://glottolog.org/resource/languoid/id/akhv1239' target='_blank'>Northern Akhvakh<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/bagv1239' target='_blank'>Bagvalal<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/botl1242' target='_blank'>Botlikh<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/cham1309' target='_blank'>Chamalal<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/ghod1238' target='_blank'>Godoberi<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata-Tukita<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/tind1238' target='_blank'>Tindi<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/toki1238' target='_blank'>Tokita<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/botl1242' target='_blank'>Botlikh<\/a><br><b>Place name:<\/b> Botlikh <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/botlikh/ \"> Botlikh corpus","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> Tanti <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/tanti_dargwa/search \"> Сorpus of Tanti Dargwa"],null,null,{"interactive":false,"permanent":false,"direction":"right","opacity":1,"offset":[7.5,0],"textsize":"10px","textOnly":true,"style":{"font-size":"15px","font-family":"sans-serif"},"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addLegend","args":[{"colors":["#C5D0CC","#384845","#5F9EA0","#FFBCBC"],"labels":["bilingual corpus","corpus of minority languages","dialect corpus","dictionary"],"na_color":null,"na_label":"NA","opacity":1,"position":"topright","type":"factor","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"limits":{"lat":[41.6166,65.79154042],"lng":[28.67069343,129.7284794]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane page-columns page-full" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-screen">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-6f66dca5431bfb50b4e6" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-6f66dca5431bfb50b4e6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addTiles","args":["Esri.WorldGrayCanvas",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldGrayCanvas",null,"Esri.WorldGrayCanvas",{"errorTileUrl":"","noWrap":false,"opacity":1,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[42.06677379,42.2787296,42.36709295,42.02391162,42.02448591,42.63540419,42.02074134,42.73268493,41.99763485,42.07004342,41.6166,42.1731202,42.97836309,42.2528,42.07520382,42.78148532,42.56102793,42.57056,41.75161155,42.34340661,42.15255375,42.349783,42.09087713,42.24624404,42.20521859,42.2568,41.6186,42.57076,42.4257,42.4257,42.09222,42.618485,41.69631754,42.4003,42.3966,42.665,42.5024,42.7428,42.6501,42.3316,42.5727,42.665,42.1655583],[46.86868912,47.23117667,47.24507509,48.06286306,47.96547434,47.22373738,48.00888326,46.32176207,47.58435465,46.86125184,47.2647,47.79449062,47.48282493,47.0472,46.41179387,46.3174228,46.30162993,46.37278,47.92894777,47.32975273,47.66966563,47.30274704,46.91793154,47.00053115,47.82786862,47.0512,47.2667,46.37298,47.4388,47.4388,47.69667,47.288081,47.99850103,46.3037,46.1041,46.22,45.995,46.2252,46.3151,45.9227,46.3724,46.22,47.3106305],6,null,["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],{"interactive":true,"className":"","stroke":false,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":["#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#C5D0CC","#FFBCBC","#FFBCBC","#FFBCBC","#FFBCBC","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845","#384845"],"fillOpacity":1},null,null,["<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Archib <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Balkhar <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Verkhniye Ubeki <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Darwag <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Dubek <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Durangi <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Yersi <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Zilo <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Itsari <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kalib <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Kina <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Mallakent <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Makhachkala <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Megeb <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Nikar <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Rikvani <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Tlibisho <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Tukita <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Khiv <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Cukhta <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Chishili <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Chuni <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Shalib <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Shangoda <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/russ1263' target='_blank'>Russian<\/a><br><b>Place name:<\/b> Yangikent <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://parasolcorpus.org/dagrus/ \"> Corpus of Russian spoken in Daghestan","<a href='https://glottolog.org/resource/languoid/id/mege1234' target='_blank'>Megeb<\/a><br><b>Place name:<\/b> Megeb <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/MehwebDict/ \"> Dictionary of the Mehweb language","<a href='https://glottolog.org/resource/languoid/id/rutu1240' target='_blank'>Rutul<\/a><br><b>Place name:<\/b> Kina <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://linghub.ru/rutuldict/ \"> Dictionary of the Rutul language","<a href='https://glottolog.org/resource/languoid/id/kara1516' target='_blank'>Karata<\/a><br><b>Place name:<\/b> Tukita <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/TukitaDict/ \"> Dictionary of the Tukita language","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/dargwa_dict/ \"> Dictionary of Dargwa languages","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/standard_dargwa/ \"> Corpus of Standard Dargwa","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/muira_dargwa/ \"> Spoken Corpus of Muira Dargwa","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> Kadar <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/kadar_dargwa/ \"> Spoken Corpus of Kadar Dargwa","<a href='https://glottolog.org/resource/languoid/id/lezg1247' target='_blank'>Lezgian<\/a><br><b>Place name:<\/b> Cnal <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/tsnal_lezgi/ \"> Tsnal Lezgi spoken corpus","<a href='https://glottolog.org/resource/languoid/id/akhv1239' target='_blank'>Northern Akhvakh<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/bagv1239' target='_blank'>Bagvalal<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/botl1242' target='_blank'>Botlikh<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/cham1309' target='_blank'>Chamalal<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/ghod1238' target='_blank'>Godoberi<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/kara1474' target='_blank'>Karata-Tukita<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/tind1238' target='_blank'>Tindi<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/toki1238' target='_blank'>Tokita<\/a><br><b>Place name:<\/b> NA <br> <b>Project:<\/b> <a target=\"_blank\" href=\" https://lingconlab.github.io/andic_dictionary_examples_database/ \"> The Andic Dictionaries Examples Database","<a href='https://glottolog.org/resource/languoid/id/botl1242' target='_blank'>Botlikh<\/a><br><b>Place name:<\/b> Botlikh <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/botlikh/ \"> Botlikh corpus","<a href='https://glottolog.org/resource/languoid/id/nucl1774' target='_blank'>Nuclear North Dargwa<\/a><br><b>Place name:<\/b> Tanti <br> <b>Project:<\/b> <a target=\"_blank\" href=\" http://lingconlab.ru/tanti_dargwa/search \"> Сorpus of Tanti Dargwa"],null,null,{"interactive":false,"permanent":false,"direction":"right","opacity":1,"offset":[7.5,0],"textsize":"10px","textOnly":true,"style":{"font-size":"15px","font-family":"sans-serif"},"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addLegend","args":[{"colors":["#C5D0CC","#384845","#FFBCBC"],"labels":["bilingual corpus","corpus of minority languages","dictionary"],"na_color":null,"na_label":"NA","opacity":1,"position":"topright","type":"factor","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"limits":{"lat":[41.6166,42.97836309],"lng":[45.9227,48.06286306]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="img-fluid quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="images/daniel_pushkino_1.jpg" class="img-fluid figure-img column-screen" width="2182"></p>
+<figcaption>Pushkino-Mikhalevskaja, Velsky District, Arkhangelskaja oblastj by Michael Daniel</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><img src="images/hse_logo.png" class="img-fluid" style="width:12mm"><br>2021–2024, Linguistic Convergence Laboratory, HSE University</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

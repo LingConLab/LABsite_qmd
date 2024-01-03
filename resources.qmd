@@ -1,0 +1,100 @@
+---
+listing:
+  - id: dial
+    type: grid
+    template: card.ejs
+    contents:
+      ymls/dial.yml
+  - id: l2
+    type: grid
+    template: card.ejs
+    contents:
+      ymls/l2.yml
+  - id: minority
+    type: grid
+    template: card.ejs
+    contents:
+      ymls/minority.yml
+  - id: dicts
+    type: grid
+    template: card.ejs
+    contents:
+      ymls/dicts.yml
+  - id: other
+    type: grid
+    template: card.ejs
+    contents:
+      ymls/other.yml
+---
+
+
+## Spoken corpora {#spoken-corpora}
+
+In the Linguistic Convergence Laboratory we create spoken corpora, collections of spoken language which give users access to audio recordings of texts as well as the written gloss. Audio access allows researchers to study languages at different levels, without having to rely on another's transcription. It is important for users to understand that the search function for these corpora is made possible by a standardized glossing of texts, so any study of linguistic features in the spoken corpora requires both working with the text and listening to all the examples used.
+
+The Laboratory develops corpora of dialectal, regional, and bilingual speech variations, predominantly of those spoken in rural areas.
+
+An important aspect of the Laboratory's spoken corpora is the addition of sociolinguistic metadata about the speakers including information about their age, sex, education, place of residency, and command of other languages.
+
+The spoken corpora are developed in cooperation with researchers from other universities and institutes. The Laboratory is open to the development of new resources along the lines of those already released.
+
+::: {.panel-tabset}
+
+### Dialect corpora
+
+:::{#dial}
+:::
+
+### Corpora of bilingual Russian
+
+:::{#l2}
+:::
+
+### Corpora of minority languages of Russia
+
+:::{#minority}
+:::
+
+:::
+
+```{r}
+#| column: screen
+#| fig-cap: "Pushkino-Mikhalevskaja, Velsky District, Arkhangelskaja oblastj by Michael Daniel"
+#| fig-cap-location: margin
+
+knitr::include_graphics("images/daniel_pushkino_2.jpg")
+```
+
+
+## Dictionaries {#dictionaries}
+
+Dictionaries contain audio and text data from several villages of Daghestan. The wordlists are based on for dictionaries derives primarily from the Jena proposal for a unified comparative lexicon of the languages of Daghestan and include bothintends to cover the Swadesh list and Kibrik and Kodzasov’s thesaurus for Daghestanian languages together with some additional items.
+
+:::{#dicts}
+:::
+
+```{r}
+#| column: screen
+#| fig-cap: "Kina, Rutulsky District, Daghestan by Timur Maisak"
+#| fig-cap-location: margin
+
+knitr::include_graphics("images/maisak_kina.jpg")
+```
+
+
+## Other resources {#other}
+
+In addition to dictionaries and corpora, the Laboratory also develops databases and atlases containing lexical, grammatical and sociolinguistic data from many villages of Daghestan.
+
+:::{#other}
+:::
+
+```{r}
+#| column: screen
+#| fig-cap: "Karata area, Akhvakhsky District, Daghestan by Timofey Mukhin"
+#| fig-cap-location: margin
+
+knitr::include_graphics("images/mukhin_karata.jpg")
+```
+
+

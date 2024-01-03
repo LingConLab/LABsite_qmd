@@ -1,0 +1,21 @@
+```{=html}
+
+<%
+// Number of columns
+const cols = 4;
+%>
+
+<div class="list grid quarto-listing-cols-<%=cols%>">
+<% for (const item of items) { %>
+  <div class="g-col-1" <%= metadataAttrs(item) %>>
+    <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em;">
+    <h6 class="no-anchor card-title listing-title"><%= item.text %></h6>
+    <% if ('content') { %> 
+      <p class="card-content listing-content"><%= item.content %></p>
+    <% } %>
+    <button type="button" onclick="location.href = '<%= item.href %>';" style="padding-top: 1em;">Перейти</button>
+    </div>
+  </div>
+<% } %>
+</div>
+```

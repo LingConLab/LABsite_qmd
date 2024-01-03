@@ -1,0 +1,81 @@
+---
+editor_options: 
+  chunk_output_type: console
+---
+
+## Международная лаборатория языковой конвергенции
+
+Одна из задач [Международной лаборатории языковой конвергенции](https://ilcl.hse.ru/) --- создание языковых ресурсов. В сотрудничестве с лингвистами из других институтов мы собираем и обрабатываем данные для [словарей](resources.html#dictionaries-ru), разрабатываем [устные корпуса](resources.html#spoken-corpora-ru) билингвального и диалектного русского, а также других малых языков России. Помимо этого, мы работаем над [проектами](resources.html#other-ru), посвященными языковым контактам и распределению различных грамматических явление на территории Дагестана, самой многоязычной республике России.
+
+```{r}
+#| column: screen
+#| fig-cap: "с. Арчо, Ахвахский район, Дагестан, Тимофей Мухин"
+#| fig-cap-location: margin
+
+knitr::include_graphics("../images/mukhin_archo.jpg")
+```
+
+
+## География источников данных для корпусов и словарей
+
+::: {.panel-tabset}
+
+### Все данные
+
+```{r}
+#| column: screen
+
+library(tidyverse)
+library(lingtypology)
+
+read_tsv("../data.tsv") |> 
+  mutate(subtype = case_when(subtype_ru == 'билингвальный' ~ 'билингвальный корпус',
+                             subtype_ru == 'диалектный' ~ 'диалектный корпус',
+                             subtype_ru == 'малых языков' ~ 'корпус малых языков',
+                             TRUE ~ subtype_ru)) |> 
+  filter(!is.na(lat)) ->
+  fe
+
+map.feature(fe$lang,
+            latitude = fe$lat,
+            longitude = fe$lon,
+            feature = fe$subtype_ru,
+            color = c('#c5d0cc', '#384845', '#5F9EA0', '#ffbcbc'),
+            legend = TRUE,
+            zoom.control = TRUE,
+            popup = paste("<b>Place name:</b>", fe$place_ru, "<br>",
+                          "<b>Project:</b>", '<a target="_blank" href="', fe$link, '">', fe$name_ru),
+            tile = "Esri.WorldGrayCanvas",
+            width = 6)
+```
+
+### Дагестан
+
+```{r}
+#| column: screen
+
+fe <- fe |> 
+  filter(lat<=44)
+
+map.feature(fe$lang,
+            latitude = fe$lat,
+            longitude = fe$lon,
+            feature = fe$subtype_ru,
+            color = c('#c5d0cc', '#384845', '#ffbcbc'),
+            legend = TRUE,
+            zoom.control = TRUE,
+            popup = paste("<b>Place name:</b>", fe$place_ru, "<br>",
+                          "<b>Project:</b>", '<a target="_blank" href="', fe$link, '">', fe$name_ru),
+            tile = "Esri.WorldGrayCanvas",
+            width = 6)
+```
+
+:::
+
+```{r}
+#| column: screen
+#| fig-cap: "д. Пушкино-Михалёвская, Вельский район, Архангельская область, Михаил Даниэль"
+#| fig-cap-location: margin
+
+knitr::include_graphics("../images/daniel_pushkino_1.jpg")
+```
