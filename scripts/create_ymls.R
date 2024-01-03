@@ -2,7 +2,9 @@ library(tidyverse)
 library(ymlthis)
 library(yaml)
 
-df <- read_tsv("data.tsv")
+read_tsv("data.tsv") |> 
+  filter(ignore != "ignore") ->
+  df
 map(list.files("ymls", pattern = ".yml", full.names = TRUE), file.remove)
 
 # dial --------------------------------------------------------------------
