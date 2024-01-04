@@ -112,8 +112,6 @@ website:
         href: http://lingconlab.ru/spoken_khakas/
       - text: Устный корпус лугового марийского языка
         href: http://lingconlab.ru/spoken_meadow_mari/
-      - text: База данных примеров андийских словарей
-        href: https://lingconlab.github.io/andic_dictionary_examples_database/
       - text: Устный корпус цнальского говора лезгинского языка
         href: http://lingconlab.ru/tsnal_lezgi/
       - text: Корпус тантынского даргинского
@@ -130,12 +128,18 @@ website:
         href: http://lingconlab.ru/TukitaDict/
     - text: Другие проекты
       menu:
+      - text: Атлас многоязычия в Дагестане
+        href: https://multidagestan.com/
+      - text: DAG < APT
+        href: https://lingconlab.github.io/DAG-APT/
       - text: DagLoans
         href: http://lingconlab.ru/dagloans/
       - text: DagSwadesh
         href: http://lingconlab.ru/dagswadesh/
       - text: Parabible
         href: http://lingconlab.ru/parabible/
+      - text: База данных примеров андийских словарей
+        href: https://lingconlab.github.io/andic_dictionary_examples_database/
       - text: Типологический атлас языков Дагестана
         href: http://lingconlab.ru/dagatlas/
 
