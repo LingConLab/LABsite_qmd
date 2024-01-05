@@ -3,13 +3,13 @@
   content: 'Tokens: 1 603'
 - text: Corpus of Standard Dargwa
   href: http://lingconlab.ru/standard_dargwa/
-  content: 'Tokens: 703 988'
+  content: 'Tokens: 6 382 427'
 - text: Spoken Corpus of Kadar Dargwa
   href: http://lingconlab.ru/kadar_dargwa/
-  content: 'Tokens: 12 654'
+  content: 'Tokens: 6 366'
 - text: Spoken Corpus of Muira Dargwa
   href: http://lingconlab.ru/muira_dargwa/
-  content: 'Tokens: 7 470'
+  content: 'Tokens: 6 935'
 - text: Spoken Corpus of the Besleney Dialect of East Circassian
   href: http://lingconlab.ru/spoken_besleney/
   content: 'Tokens: 7 955'
@@ -25,6 +25,9 @@
 - text: Spoken corpus of Khakas
   href: http://lingconlab.ru/spoken_khakas/
   content: 'Tokens: 57 633'
+- text: Spoken corpus of Malokarachkin Chuvash
+  href: http://lingconlab.ru/chuvash/
+  content: 'Tokens: 6 405'
 - text: Spoken corpus of Meadow Mari
   href: http://lingconlab.ru/spoken_meadow_mari/
   content: 'Tokens: 11 647'

@@ -3,13 +3,13 @@
   content: 'Словоупотр.: 1 603'
 - text: Корпус литературного даргинского
   href: http://lingconlab.ru/standard_dargwa/
-  content: 'Словоупотр.: 703 988'
+  content: 'Словоупотр.: 6 382 427'
 - text: Устный корпус кадарского даргинского
   href: http://lingconlab.ru/kadar_dargwa/
-  content: 'Словоупотр.: 12 654'
+  content: 'Словоупотр.: 6 366'
 - text: Устный корпус муиринского даргинского
   href: http://lingconlab.ru/muira_dargwa/
-  content: 'Словоупотр.: 7 470'
+  content: 'Словоупотр.: 6 935'
 - text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
   href: http://lingconlab.ru/spoken_besleney/
   content: 'Словоупотр.: 7 955'
@@ -25,6 +25,9 @@
 - text: Устный корпус диалектов хакасского языка
   href: http://lingconlab.ru/spoken_khakas/
   content: 'Словоупотр.: 57 633'
+- text: Устный корпус малокарачкинского говора чувашского языка
+  href: http://lingconlab.ru/chuvash/
+  content: 'Словоупотр.: 6 405'
 - text: Устный корпус лугового марийского языка
   href: http://lingconlab.ru/spoken_meadow_mari/
   content: 'Словоупотр.: 11 647'
