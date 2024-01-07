@@ -15,8 +15,10 @@ format:
 lang: ru
 website:
   search: false
-  page-footer: '![](../images/hse_logo.png){width=12mm}<br>2021--2024, Международная
-    лаборатория языковой конвергенции, НИУ ВШЭ'
+  favicon: ../images/favicon-32x32.png
+  page-footer: '![](../images/hse_logo.png){width=12mm}<br>2021--<span id=''year''></span>,
+    Международная лаборатория языковой конвергенции, НИУ ВШЭ<script>document.getElementById(''year'').innerHTML
+    = new Date().getFullYear();</script>'
   navbar:
     left:
     - text: en

@@ -15,8 +15,10 @@ format:
 lang: en
 website:
   search: false
-  page-footer: '![](images/hse_logo.png){width=12mm}<br>2021--2024, Linguistic Convergence
-    Laboratory, HSE University'
+  favicon: images/favicon-32x32.png
+  page-footer: '![](images/hse_logo.png){width=12mm}<br>2021--<span id=''year''></span>,
+    Linguistic Convergence Laboratory, HSE University<script>document.getElementById(''year'').innerHTML
+    = new Date().getFullYear();</script>'
   navbar:
     left:
     - text: ru
