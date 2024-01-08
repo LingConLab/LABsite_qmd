@@ -8,7 +8,7 @@ const cols = 3;
 <div class="list grid quarto-listing-cols-<%=cols%>">
 <% for (const item of items) { %>
   <div class="g-col-1" <%= metadataAttrs(item) %>>
-    <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; background-color: #ccd1d5;">
+    <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; background-color: #d9d9d9;">
     <h5 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;"><%= item.text %></h6>
     <% if ('content') { %> 
       <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;"><%= item.content %></p>
