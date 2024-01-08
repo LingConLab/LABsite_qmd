@@ -50,7 +50,7 @@ The spoken corpora are developed in cooperation with researchers from other univ
 :::{#l2}
 :::
 
-### Corpora of minority languages of Russia
+### Corpora of minority languages
 
 :::{#minority}
 :::
