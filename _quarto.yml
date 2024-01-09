@@ -141,7 +141,7 @@ website:
         href: http://lingconlab.ru/TukitaDict/
     - section: Other Resources
       contents:
-      - text: Атлас многоязычия в Дагестане
+      - text: Atlas of Multilingualism in Dagestan
         href: https://multidagestan.com/
       - text: DAG < APT
         href: https://lingconlab.github.io/DAG-APT/
@@ -151,8 +151,8 @@ website:
         href: http://lingconlab.ru/dagswadesh/
       - text: Parabible
         href: http://lingconlab.ru/parabible/
-      - text: База данных примеров андийских словарей
+      - text: The Andic Dictionaries Examples Database
         href: https://lingconlab.github.io/andic_dictionary_examples_database/
-      - text: Типологический атлас языков Дагестана
+      - text: Typological Atlas of the Languages of Daghestan
         href: http://lingconlab.ru/dagatlas/
 

@@ -168,7 +168,7 @@ list(project = list(type = "website",
                                      list(section = "Dictionaries",
                                           contents = read_yaml("ymls/dicts.yml") |> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Other Resources",
-                                          contents = read_yaml("ymls/other_ru.yml") |> modify_depth(1, function(i) discard_at(i, "content"))))))) |> 
+                                          contents = read_yaml("ymls/other.yml") |> modify_depth(1, function(i) discard_at(i, "content"))))))) |> 
   as_yml() |> 
   use_yml_file("ymls/_quarto-english.yml")
 
