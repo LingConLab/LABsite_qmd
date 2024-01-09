@@ -24,7 +24,7 @@ quarto render ./ru
 
 ## Update of the website
 
-1. In order to update the website you need to update information in `data.tsv`. 
+1. In order to update the website you need to update information in `data.tsv`. In case you need to change text of the website, see `index.qmd`, `resources.qmd`, `ru/index.qmd`, and `ru/resources.qmd`.
 2. After the update you need to run an R script stored in `scripts/create_ymls.R`. This script will create a bunch of `.yml` files in the `./ymls` folder including two general `.yml` files: `_quarto-english.yml` and `_quarto-russian.yml`.
 3. After the update of `.yml` files you need to replace files in `./` and `./ru` folders:
 
