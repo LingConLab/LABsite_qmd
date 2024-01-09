@@ -8,7 +8,7 @@ editor_options:
 Одна из задач [Международной лаборатории языковой конвергенции](https://ilcl.hse.ru/) --- создание языковых ресурсов. В сотрудничестве с лингвистами из других институтов мы собираем и обрабатываем данные для [словарей](resources.html#dictionaries-ru), разрабатываем [устные корпуса](resources.html#spoken-corpora-ru) билингвального и диалектного русского, а также других малых языков России. Помимо этого, мы работаем над [проектами](resources.html#other-ru), посвященными языковым контактам и распределению различных грамматических явление на территории Дагестана, самой многоязычной республике России.
 
 ```{r}
-#| column: screen
+#| column: screen-right
 #| fig-cap: "с. Арчо, Ахвахский район, Дагестан, Тимофей Мухин"
 
 knitr::include_graphics("../images/mukhin_archo.jpg")
@@ -22,7 +22,7 @@ knitr::include_graphics("../images/mukhin_archo.jpg")
 ### Все данные
 
 ```{r}
-#| column: screen
+#| column: screen-right
 
 library(tidyverse)
 library(lingtypology)
@@ -51,7 +51,7 @@ map.feature(fe$lang,
 ### Дагестан
 
 ```{r}
-#| column: screen
+#| column: screen-right
 
 fe <- fe |> 
   filter(lat<=44)
@@ -72,7 +72,7 @@ map.feature(fe$lang,
 :::
 
 ```{r}
-#| column: screen
+#| column: screen-right
 #| fig-cap: "д. Пушкино-Михалёвская, Вельский район, Архангельская область, Михаил Даниэль"
 
 knitr::include_graphics("../images/daniel_pushkino_1.jpg")

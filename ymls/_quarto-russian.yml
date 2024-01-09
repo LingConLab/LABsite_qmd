@@ -1,6 +1,6 @@
 project:
   type: website
-  title: Международная лаборатория языковой конвергенции
+  title: Ресурсы Международная лаборатория языковой конвергенции
   output-dir: ./../docs/ru
   render:
   - index.qmd
@@ -12,7 +12,6 @@ execute:
 format:
   html:
     theme: flatly
-    page-layout: full
     header-includes: <link rel="preconnect" href="https://fonts.gstatic.com"><link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet">
@@ -25,14 +24,18 @@ website:
     Международная лаборатория языковой конвергенции, НИУ ВШЭ<script>document.getElementById(''year'').innerHTML
     = new Date().getFullYear();</script>'
   navbar:
-    left:
+    right:
     - text: en
       href: ./../index.html
-    right:
-    - text: Все ресурсы
+  sidebar:
+    style: docked
+    background: dark
+    collapse-level: 1.0
+    contents:
+    - text: Обзор ресурсов
       href: ./resources.html
-    - text: Диалектные корпуса
-      menu:
+    - section: Диалектные корпуса
+      contents:
       - text: Корпус говоров низовья рек Лух и Теза
         href: http://lingconlab.ru/lukhteza/
       - text: Корпус опочецких говоров
@@ -79,8 +82,8 @@ website:
         href: http://lingconlab.ru/vaduga/
       - text: Корпус устьянских говоров
         href: http://www.parasolcorpus.org/Pushkino/
-    - text: Билингвальный русский
-      menu:
+    - section: Корпуса билингвального русского
+      contents:
       - text: Корпус русской речи Карелии
         href: http://lingconlab.ru/karelrus/
       - text: Корпус русской речи бесермян
@@ -97,8 +100,8 @@ website:
         href: http://lingconlab.ru/romarus/
       - text: Якутско-русский корпус переключения кода
         href: http://lingconlab.ru/cs_yakut/
-    - text: Малые языки
-      menu:
+    - section: Малые языки России
+      contents:
       - text: Ботлихский корпус
         href: http://lingconlab.ru/botlikh/
       - text: Корпус литературного даргинского
@@ -111,8 +114,6 @@ website:
         href: http://lingconlab.ru/spoken_besleney/
       - text: Устный корпус абазинского языка
         href: http://lingconlab.ru/spoken_abaza/
-      - text: Устный корпус адыгейского языка
-        href: http://lingconlab.ru/spoken_adyghe/
       - text: Устный корпус башкирского языка
         href: http://lingconlab.ru/spoken_bashkir/
       - text: Устный корпус диалектов хакасского языка
@@ -121,12 +122,14 @@ website:
         href: http://lingconlab.ru/chuvash/
       - text: Устный корпус лугового марийского языка
         href: http://lingconlab.ru/spoken_meadow_mari/
+      - text: Устный корпус адыгейского языка
+        href: http://lingconlab.ru/spoken_adyghe/
       - text: Устный корпус цнальского говора лезгинского языка
         href: http://lingconlab.ru/tsnal_lezgi/
       - text: Корпус тантынского даргинского
         href: http://lingconlab.ru/tanti_dargwa/search
-    - text: Словари
-      menu:
+    - section: Словари
+      contents:
       - text: Словарь даргинских языков
         href: http://lingconlab.ru/dargwa_dict/
       - text: Словарь мегебского языка
@@ -135,8 +138,8 @@ website:
         href: https://linghub.ru/rutuldict/
       - text: Словарь тукитинского языка
         href: http://lingconlab.ru/TukitaDict/
-    - text: Другие проекты
-      menu:
+    - section: Другие проекты
+      contents:
       - text: Атлас многоязычия в Дагестане
         href: https://multidagestan.com/
       - text: DAG < APT

@@ -16,9 +16,6 @@
 - text: Устный корпус абазинского языка
   href: http://lingconlab.ru/spoken_abaza/
   content: 'Словоупотр.: 3 636'
-- text: Устный корпус адыгейского языка
-  href: http://lingconlab.ru/spoken_adyghe/
-  content: 'Словоупотр.: 9 128'
 - text: Устный корпус башкирского языка
   href: http://lingconlab.ru/spoken_bashkir/
   content: 'Словоупотр.: 28 202'
@@ -31,6 +28,9 @@
 - text: Устный корпус лугового марийского языка
   href: http://lingconlab.ru/spoken_meadow_mari/
   content: 'Словоупотр.: 11 647'
+- text: Устный корпус адыгейского языка
+  href: http://lingconlab.ru/spoken_adyghe/
+  content: 'Словоупотр.: 9 128'
 - text: Устный корпус цнальского говора лезгинского языка
   href: http://lingconlab.ru/tsnal_lezgi/
   content: 'Словоупотр.: 5 113'

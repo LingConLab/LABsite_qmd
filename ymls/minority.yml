@@ -16,9 +16,6 @@
 - text: Spoken corpus of Abaza
   href: http://lingconlab.ru/spoken_abaza/
   content: 'Tokens: 3 636'
-- text: Spoken corpus of Adyghe
-  href: http://lingconlab.ru/spoken_adyghe/
-  content: 'Tokens: 9 128'
 - text: Spoken corpus of Bashkir
   href: http://lingconlab.ru/spoken_bashkir/
   content: 'Tokens: 28 202'
@@ -31,6 +28,9 @@
 - text: Spoken corpus of Meadow Mari
   href: http://lingconlab.ru/spoken_meadow_mari/
   content: 'Tokens: 11 647'
+- text: Spoken corpus of West Circassian
+  href: http://lingconlab.ru/spoken_adyghe/
+  content: 'Tokens: 9 128'
 - text: Tsnal Lezgi spoken corpus
   href: http://lingconlab.ru/tsnal_lezgi/
   content: 'Tokens: 5 113'
