@@ -137,7 +137,7 @@ map(seq_along(filtered$name_ru), function(i){
 # quarto-english ----------------------------------------------------------
 
 list(project = list(type = "website",
-                    title = "Resources of Linguistic Convergence Laboratory",
+                    title = "Resources of the Linguistic Convergence Laboratory",
                     `output-dir` = "./docs",
                     render = list("index.qmd", "resources.qmd")),
      execute = list(echo = FALSE,
@@ -175,7 +175,7 @@ list(project = list(type = "website",
 # quarto-russian ----------------------------------------------------------
 
 list(project = list(type = "website",
-                    title = "Ресурсы Международная лаборатория языковой конвергенции",
+                    title = "Ресурсы Международной лаборатории языковой конвергенции",
                     `output-dir` = "./../docs/ru",
                     render = list("index.qmd", "resources.qmd")),
      execute = list(echo = FALSE,

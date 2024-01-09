@@ -1,6 +1,6 @@
 project:
   type: website
-  title: Ресурсы Международная лаборатория языковой конвергенции
+  title: Ресурсы Международной лаборатории языковой конвергенции
   output-dir: ./../docs/ru
   render:
   - index.qmd

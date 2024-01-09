@@ -3,7 +3,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Resources of Linguistic Convergence Laboratory
+## Resources of the Linguistic Convergence Laboratory
 
 One of the tasks of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/) is the creation of language resources. In cooperation with other linguists we collect data for [dictionaries](resources.html#dictionaries), develop [spoken corpora](resources.html#spoken-corpora) of bilingual, dialect, and regional variants of Russian and minority languages of Russia. Beyond this we also develop [resources](resources.html#other) for quantitative research of language contact and distribution of various grammatical features in Daghestan, a multilingual republic in Russia.
 

@@ -1,6 +1,6 @@
 project:
   type: website
-  title: Resources of Linguistic Convergence Laboratory
+  title: Resources of the Linguistic Convergence Laboratory
   output-dir: ./docs
   render:
   - index.qmd
