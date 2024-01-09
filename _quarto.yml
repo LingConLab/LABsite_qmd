@@ -36,107 +36,108 @@ website:
       href: ./resources.html
     - section: Dialect corpora
       contents:
-      - text: Корпус говоров низовья рек Лух и Теза
+      - text: Corpus of Lukh and Teza river basins dialects
         href: http://lingconlab.ru/lukhteza/
-      - text: Корпус опочецких говоров
+      - text: Corpus of Opochetsky dialects
         href: http://lingconlab.ru/opochka/
-      - text: Корпус говора села Роговатка
+      - text: Corpus of Rogovatka dialect
         href: http://lingconlab.ru/rogovatka/
-      - text: Корпус говора города Звенигород
+      - text: Corpus of Russian spoken in Zvenigorod
         href: http://lingconlab.ru/zvenigorod/
-      - text: Корпус говора деревень Шетнево и Макеево
+      - text: Corpus of Shetnevo and Makeevo
         href: http://lingconlab.ru/shetnevo/
-      - text: Корпус говора села Спиридонова Буда
+      - text: Corpus of Spiridonova Buda dialect
         href: http://lingconlab.ru/SpiridonovaBuda/
-      - text: Корпус говора села Кеба
+      - text: Corpus of the Russian dialect spoken in Keba
         href: http://lingconlab.ru/keba/
-      - text: Корпус говора Хиславичского района
+      - text: Corpus of the Russian dialect spoken in Khislavichi district
         href: http://lingconlab.ru/khislavichi/
-      - text: Корпус говора Мантуровского района Костромской области
+      - text: Corpus of the Russian dialect spoken in Manturovo
         href: http://lingconlab.ru/manturovo/
-      - text: Корпус говора деревни Нехочи
+      - text: Corpus of the Russian dialect spoken in Nekhochi
         href: http://lingconlab.ru/nekhochi/
-      - text: Корпус говора села Церковное
+      - text: Corpus of the Russian dialect spoken in Tserkovnoe
         href: http://lingconlab.ru/tserkovnoe/
-      - text: Корпус говоров окрестностей Михайлова
+      - text: Corpus of the Russian dialect spoken in the Mikhaylov area
         href: http://lingconlab.ru/mikhaylov/
-      - text: Корпус говора села Малинино
+      - text: Corpus of the Russian dialect spoken in the village Malinino
         href: http://lingconlab.ru/malinino/
-      - text: Корпус говора деревни Веегора
+      - text: Corpus of the Russian dialect spoken in the village Veegora
         href: http://lingconlab.ru/veegora/
-      - text: Корпус донских говоров
+      - text: Corpus of the Russian dialect spoken in the villages of the Don river
         href: http://lingconlab.ru/don_rnd/
-      - text: Корпус говоров среднего течения Северной Двины
+      - text: Corpus of the Russian dialect spoken in the villages of the Middle Northern
+          Dvina
         href: http://lingconlab.ru/dvina/
-      - text: Корпус говоров Средней Пинеги
+      - text: Corpus of the Russian dialect spoken in the villages of the Middle Pinega
         href: http://lingconlab.ru/pinega/
-      - text: Корпус говора Средней Пёзы
+      - text: Corpus of the Russian dialect spoken in the villages of the Middle Pyoza
         href: http://lingconlab.ru/pyoza/
-      - text: Лужниковский корпус
+      - text: Luzhnikovo Corpus
         href: http://lingconlab.ru/luzhnikovo/
-      - text: Корпус просодии русских диалектов
+      - text: Prosody of Russian Dialects
         href: https://lingconlab.github.io/PRuD/
-      - text: Корпус сёл Свишни и Тростное
+      - text: Svishni and Trostnoe Corpus
         href: http://lingconlab.ru/yelets/
-      - text: Корпус говора верхней Пинеги и Выи
+      - text: Upper Pinega and Vyya Corpus
         href: http://lingconlab.ru/vaduga/
-      - text: Корпус устьянских говоров
+      - text: Ustja River Basin Corpus
         href: http://www.parasolcorpus.org/Pushkino/
     - section: Corpora of bilingual Russian
       contents:
-      - text: Корпус русской речи Карелии
+      - text: Corpus of Karelian Russian
         href: http://lingconlab.ru/karelrus/
-      - text: Корпус русской речи бесермян
+      - text: Corpus of Russian spoken by the Besermans
         href: http://lingconlab.ru/BesermanRus/
-      - text: Корпус русской речи Башкирии
+      - text: Corpus of Russian spoken in Bashkortostan
         href: http://lingconlab.ru/BashkirRus/
-      - text: Корпус русской речи Чувашии
+      - text: Corpus of Russian spoken in Chuvashia
         href: http://lingconlab.ru/ChuvashRus/
-      - text: Корпус дагестанского русского
+      - text: Corpus of Russian spoken in Daghestan
         href: http://parasolcorpus.org/dagrus/
-      - text: Корпус русской речи республики Марий Эл
+      - text: Corpus of Russian spoken in Mari El
         href: http://lingconlab.ru/MariRus/
-      - text: Корпус цыганского русского
+      - text: Romani Russian Corpus
         href: http://lingconlab.ru/romarus/
-      - text: Якутско-русский корпус переключения кода
+      - text: Yakut-Russian Code-Switching Corpus
         href: http://lingconlab.ru/cs_yakut/
     - section: Corpora of minority languages of Russian
       contents:
-      - text: Ботлихский корпус
+      - text: Botlikh corpus
         href: http://lingconlab.ru/botlikh/
-      - text: Корпус литературного даргинского
+      - text: Corpus of Standard Dargwa
         href: http://lingconlab.ru/standard_dargwa/
-      - text: Устный корпус кадарского даргинского
+      - text: Spoken Corpus of Kadar Dargwa
         href: http://lingconlab.ru/kadar_dargwa/
-      - text: Устный корпус муиринского даргинского
+      - text: Spoken Corpus of Muira Dargwa
         href: http://lingconlab.ru/muira_dargwa/
-      - text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
+      - text: Spoken Corpus of the Besleney Dialect of East Circassian
         href: http://lingconlab.ru/spoken_besleney/
-      - text: Устный корпус абазинского языка
+      - text: Spoken corpus of Abaza
         href: http://lingconlab.ru/spoken_abaza/
-      - text: Устный корпус башкирского языка
+      - text: Spoken corpus of Bashkir
         href: http://lingconlab.ru/spoken_bashkir/
-      - text: Устный корпус диалектов хакасского языка
+      - text: Spoken corpus of Khakas
         href: http://lingconlab.ru/spoken_khakas/
-      - text: Устный корпус малокарачкинского говора чувашского языка
+      - text: Spoken corpus of Malokarachkin Chuvash
         href: http://lingconlab.ru/chuvash/
-      - text: Устный корпус лугового марийского языка
+      - text: Spoken corpus of Meadow Mari
         href: http://lingconlab.ru/spoken_meadow_mari/
-      - text: Устный корпус адыгейского языка
+      - text: Spoken corpus of West Circassian
         href: http://lingconlab.ru/spoken_adyghe/
-      - text: Устный корпус цнальского говора лезгинского языка
+      - text: Tsnal Lezgi spoken corpus
         href: http://lingconlab.ru/tsnal_lezgi/
-      - text: Корпус тантынского даргинского
+      - text: Сorpus of Tanti Dargwa
         href: http://lingconlab.ru/tanti_dargwa/search
     - section: Dictionaries
       contents:
-      - text: Словарь даргинских языков
+      - text: Dictionary of Dargwa languages
         href: http://lingconlab.ru/dargwa_dict/
-      - text: Словарь мегебского языка
+      - text: Dictionary of the Mehweb language
         href: http://lingconlab.ru/MehwebDict/
-      - text: Словарь рутульского языка
+      - text: Dictionary of the Rutul language
         href: https://linghub.ru/rutuldict/
-      - text: Словарь тукитинского языка
+      - text: Dictionary of the Tukita language
         href: http://lingconlab.ru/TukitaDict/
     - section: Other Resources
       contents:
