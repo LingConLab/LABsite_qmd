@@ -12,7 +12,7 @@ execute:
 format:
   html:
     theme: flatly
-    page-layout: full
+    linkcolor: '#2c3e50'
     header-includes: <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet">
 lang: en
