@@ -4,6 +4,9 @@
 - text: Корпус русской речи бесермян
   href: http://lingconlab.ru/BesermanRus/
   content: 'Словоупотр.: 97 216'
+- text: Корпус цыганского русского
+  href: http://lingconlab.ru/romarus/
+  content: 'Словоупотр.: 41 767'
 - text: Корпус русской речи Башкирии
   href: http://lingconlab.ru/BashkirRus/
   content: 'Словоупотр.: 93 127'
@@ -16,9 +19,6 @@
 - text: Корпус русской речи республики Марий Эл
   href: http://lingconlab.ru/MariRus/
   content: 'Словоупотр.: 69 109'
-- text: Корпус цыганского русского
-  href: http://lingconlab.ru/romarus/
-  content: 'Словоупотр.: 41 767'
 - text: Якутско-русский корпус переключения кода
   href: http://lingconlab.ru/cs_yakut/
   content: 'Словоупотр.: 15 139'

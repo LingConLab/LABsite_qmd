@@ -89,6 +89,8 @@ website:
         href: http://lingconlab.ru/karelrus/
       - text: Корпус русской речи бесермян
         href: http://lingconlab.ru/BesermanRus/
+      - text: Корпус цыганского русского
+        href: http://lingconlab.ru/romarus/
       - text: Корпус русской речи Башкирии
         href: http://lingconlab.ru/BashkirRus/
       - text: Корпус русской речи Чувашии
@@ -97,8 +99,6 @@ website:
         href: http://parasolcorpus.org/dagrus/
       - text: Корпус русской речи республики Марий Эл
         href: http://lingconlab.ru/MariRus/
-      - text: Корпус цыганского русского
-        href: http://lingconlab.ru/romarus/
       - text: Якутско-русский корпус переключения кода
         href: http://lingconlab.ru/cs_yakut/
     - section: Малые языки России

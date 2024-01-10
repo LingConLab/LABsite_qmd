@@ -89,6 +89,8 @@ website:
         href: http://lingconlab.ru/karelrus/
       - text: Corpus of Russian spoken by the Besermans
         href: http://lingconlab.ru/BesermanRus/
+      - text: Corpus of Russian spoken by the Roma
+        href: http://lingconlab.ru/romarus/
       - text: Corpus of Russian spoken in Bashkortostan
         href: http://lingconlab.ru/BashkirRus/
       - text: Corpus of Russian spoken in Chuvashia
@@ -97,8 +99,6 @@ website:
         href: http://parasolcorpus.org/dagrus/
       - text: Corpus of Russian spoken in Mari El
         href: http://lingconlab.ru/MariRus/
-      - text: Romani Russian Corpus
-        href: http://lingconlab.ru/romarus/
       - text: Yakut-Russian Code-Switching Corpus
         href: http://lingconlab.ru/cs_yakut/
     - section: Corpora of minority languages of Russia
