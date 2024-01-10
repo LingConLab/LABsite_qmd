@@ -30,11 +30,11 @@ listing:
 
 ## Spoken corpora {#spoken-corpora}
 
-At the Linguistic Convergence Laboratory we create spoken corpora, which give users access to audio recordings of texts as well as transcription. Audio access allows researchers to study languages at different levels, without having to rely on annotator's transcription alone. It is important to keep in mind that searching these corpora is based on a standardized glossing of texts, so that any study of linguistic features cannot rely on transcription alone but also requires listening to all the examples used.
+At the Linguistic Convergence Laboratory we create spoken corpora, which give users access to audio recordings of texts as well as their transcription. Audio access allows researchers to study languages at different levels, without having to rely on the annotator's transcription alone. It is important to keep in mind that the search function in these corpora is based on a standardized glossing of texts, so any study of linguistic features cannot rely on transcription alone but also requires listening to all the examples used.
 
-The Laboratory develops corpora of dialectal, regional, and bilingual speech variations, predominantly those spoken in rural areas.
+The Laboratory develops corpora of dialectal, regional, and bilingual speech varieties, predominantly those spoken in rural areas.
 
-An important aspect of the Laboratory's spoken corpora is the availability of sociolinguistic metadata about the speakers including information about their age, sex, education, place of residency, and command of other languages.
+An important aspect of the Laboratory's spoken corpora is the availability of sociolinguistic metadata about the speakers including information about their age, gender, education, place of residence, and command of other languages.
 
 The spoken corpora are developed in cooperation with researchers from other universities and institutions. The Laboratory is open to the development of new resources.
 
@@ -67,7 +67,7 @@ knitr::include_graphics("images/daniel_pushkino_2.jpg")
 
 ## Dictionaries {#dictionaries}
 
-Dictionaries contain audio and text data from several villages of Daghestan. The wordlists are based on for dictionaries derives primarily from the Jena proposal for a unified comparative lexicon of the languages of Daghestan and include bothintends to cover the Swadesh list and Kibrik and Kodzasov’s thesaurus for Daghestanian languages together with some additional items.
+Dictionaries contain audio and text data from several villages of Daghestan. The wordlists for dictionaries are primarily based on the Jena proposal for a unified comparative lexicon of the languages of Daghestan, and include both the Swadesh list and Kibrik and Kodzasov’s thesaurus for Daghestanian languages together with some additional items.
 
 :::{#dicts}
 :::
