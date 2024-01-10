@@ -143,6 +143,8 @@ website:
       contents:
       - text: Atlas of Multilingualism in Dagestan
         href: https://multidagestan.com/
+      - text: Atlas of Rutul dialects
+        href: https://lingconlab.github.io/rutul_dialectology/
       - text: DAG < APT
         href: https://lingconlab.github.io/DAG-APT/
       - text: DagLoans
