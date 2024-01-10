@@ -105,12 +105,6 @@ website:
       contents:
       - text: Corpus of Standard Dargwa
         href: http://lingconlab.ru/standard_dargwa/
-      - text: Spoken Corpus of Kadar Dargwa
-        href: http://lingconlab.ru/kadar_dargwa/
-      - text: Spoken Corpus of Muira Dargwa
-        href: http://lingconlab.ru/muira_dargwa/
-      - text: Spoken Corpus of the Besleney Dialect of East Circassian
-        href: http://lingconlab.ru/spoken_besleney/
       - text: Spoken corpus of Abaza
         href: http://lingconlab.ru/spoken_abaza/
       - text: Spoken corpus of Bashkir
@@ -125,6 +119,12 @@ website:
         href: http://lingconlab.ru/spoken_meadow_mari/
       - text: Spoken corpus of West Circassian
         href: http://lingconlab.ru/spoken_adyghe/
+      - text: Spoken corpus of the Besleney Dialect of East Circassian
+        href: http://lingconlab.ru/spoken_besleney/
+      - text: Spoken сorpus of Kadar Dargwa
+        href: http://lingconlab.ru/kadar_dargwa/
+      - text: Spoken сorpus of Muira Dargwa
+        href: http://lingconlab.ru/muira_dargwa/
       - text: Tsnal Lezgi spoken corpus
         href: http://lingconlab.ru/tsnal_lezgi/
       - text: Сorpus of Tanti Dargwa

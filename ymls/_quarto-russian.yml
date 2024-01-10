@@ -105,12 +105,6 @@ website:
       contents:
       - text: Корпус литературного даргинского
         href: http://lingconlab.ru/standard_dargwa/
-      - text: Устный корпус кадарского даргинского
-        href: http://lingconlab.ru/kadar_dargwa/
-      - text: Устный корпус муиринского даргинского
-        href: http://lingconlab.ru/muira_dargwa/
-      - text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
-        href: http://lingconlab.ru/spoken_besleney/
       - text: Устный корпус абазинского языка
         href: http://lingconlab.ru/spoken_abaza/
       - text: Устный корпус башкирского языка
@@ -125,6 +119,12 @@ website:
         href: http://lingconlab.ru/spoken_meadow_mari/
       - text: Устный корпус адыгейского языка
         href: http://lingconlab.ru/spoken_adyghe/
+      - text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
+        href: http://lingconlab.ru/spoken_besleney/
+      - text: Устный корпус кадарского даргинского
+        href: http://lingconlab.ru/kadar_dargwa/
+      - text: Устный корпус муиринского даргинского
+        href: http://lingconlab.ru/muira_dargwa/
       - text: Устный корпус цнальского говора лезгинского языка
         href: http://lingconlab.ru/tsnal_lezgi/
       - text: Корпус тантынского даргинского
