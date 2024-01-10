@@ -1,6 +1,3 @@
-- text: Botlikh corpus
-  href: http://lingconlab.ru/botlikh/
-  content: 'Tokens: 1 603'
 - text: Corpus of Standard Dargwa
   href: http://lingconlab.ru/standard_dargwa/
   content: 'Tokens: 6 382 427'
@@ -19,6 +16,9 @@
 - text: Spoken corpus of Bashkir
   href: http://lingconlab.ru/spoken_bashkir/
   content: 'Tokens: 28 202'
+- text: Spoken corpus of Botlikh
+  href: http://lingconlab.ru/botlikh/
+  content: 'Tokens: 1 603'
 - text: Spoken corpus of Khakas
   href: http://lingconlab.ru/spoken_khakas/
   content: 'Tokens: 57 633'

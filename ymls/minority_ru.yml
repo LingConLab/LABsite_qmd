@@ -1,6 +1,3 @@
-- text: Ботлихский корпус
-  href: http://lingconlab.ru/botlikh/
-  content: 'Словоупотр.: 1 603'
 - text: Корпус литературного даргинского
   href: http://lingconlab.ru/standard_dargwa/
   content: 'Словоупотр.: 6 382 427'
@@ -19,6 +16,9 @@
 - text: Устный корпус башкирского языка
   href: http://lingconlab.ru/spoken_bashkir/
   content: 'Словоупотр.: 28 202'
+- text: Устный корпус ботлихского языка
+  href: http://lingconlab.ru/botlikh/
+  content: 'Словоупотр.: 1 603'
 - text: Устный корпус диалектов хакасского языка
   href: http://lingconlab.ru/spoken_khakas/
   content: 'Словоупотр.: 57 633'

@@ -30,13 +30,13 @@ listing:
 
 ## Spoken corpora {#spoken-corpora}
 
-In the Linguistic Convergence Laboratory we create spoken corpora, collections of spoken language which give users access to audio recordings of texts as well as the written gloss. Audio access allows researchers to study languages at different levels, without having to rely on another's transcription. It is important for users to understand that the search function for these corpora is made possible by a standardized glossing of texts, so any study of linguistic features in the spoken corpora requires both working with the text and listening to all the examples used.
+At the Linguistic Convergence Laboratory we create spoken corpora, which give users access to audio recordings of texts as well as transcription. Audio access allows researchers to study languages at different levels, without having to rely on annotator's transcription alone. It is important to keep in mind that searching these corpora is based on a standardized glossing of texts, so that any study of linguistic features cannot rely on transcription alone but also requires listening to all the examples used.
 
-The Laboratory develops corpora of dialectal, regional, and bilingual speech variations, predominantly of those spoken in rural areas.
+The Laboratory develops corpora of dialectal, regional, and bilingual speech variations, predominantly those spoken in rural areas.
 
-An important aspect of the Laboratory's spoken corpora is the addition of sociolinguistic metadata about the speakers including information about their age, sex, education, place of residency, and command of other languages.
+An important aspect of the Laboratory's spoken corpora is the availability of sociolinguistic metadata about the speakers including information about their age, sex, education, place of residency, and command of other languages.
 
-The spoken corpora are developed in cooperation with researchers from other universities and institutes. The Laboratory is open to the development of new resources along the lines of those already released.
+The spoken corpora are developed in cooperation with researchers from other universities and institutions. The Laboratory is open to the development of new resources.
 
 ::: {.panel-tabset}
 

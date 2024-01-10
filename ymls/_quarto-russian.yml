@@ -103,8 +103,6 @@ website:
         href: http://lingconlab.ru/cs_yakut/
     - section: Малые языки России
       contents:
-      - text: Ботлихский корпус
-        href: http://lingconlab.ru/botlikh/
       - text: Корпус литературного даргинского
         href: http://lingconlab.ru/standard_dargwa/
       - text: Устный корпус кадарского даргинского
@@ -117,6 +115,8 @@ website:
         href: http://lingconlab.ru/spoken_abaza/
       - text: Устный корпус башкирского языка
         href: http://lingconlab.ru/spoken_bashkir/
+      - text: Устный корпус ботлихского языка
+        href: http://lingconlab.ru/botlikh/
       - text: Устный корпус диалектов хакасского языка
         href: http://lingconlab.ru/spoken_khakas/
       - text: Устный корпус малокарачкинского говора чувашского языка

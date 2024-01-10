@@ -101,10 +101,8 @@ website:
         href: http://lingconlab.ru/romarus/
       - text: Yakut-Russian Code-Switching Corpus
         href: http://lingconlab.ru/cs_yakut/
-    - section: Corpora of minority languages of Russian
+    - section: Corpora of minority languages of Russia
       contents:
-      - text: Botlikh corpus
-        href: http://lingconlab.ru/botlikh/
       - text: Corpus of Standard Dargwa
         href: http://lingconlab.ru/standard_dargwa/
       - text: Spoken Corpus of Kadar Dargwa
@@ -117,6 +115,8 @@ website:
         href: http://lingconlab.ru/spoken_abaza/
       - text: Spoken corpus of Bashkir
         href: http://lingconlab.ru/spoken_bashkir/
+      - text: Spoken corpus of Botlikh
+        href: http://lingconlab.ru/botlikh/
       - text: Spoken corpus of Khakas
         href: http://lingconlab.ru/spoken_khakas/
       - text: Spoken corpus of Malokarachkin Chuvash
