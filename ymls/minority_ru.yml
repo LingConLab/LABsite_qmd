@@ -1,40 +1,27 @@
 - text: Корпус литературного даргинского
   href: http://lingconlab.ru/standard_dargwa/
-  content: 'Словоупотр.: 6 382 427'
-- text: Устный корпус абазинского языка
-  href: http://lingconlab.ru/spoken_abaza/
-  content: 'Словоупотр.: 3 636'
-- text: Устный корпус башкирского языка
-  href: http://lingconlab.ru/spoken_bashkir/
-  content: 'Словоупотр.: 28 202'
-- text: Устный корпус ботлихского языка
-  href: http://lingconlab.ru/botlikh/
-  content: 'Словоупотр.: 1 603'
-- text: Устный корпус диалектов хакасского языка
-  href: http://lingconlab.ru/spoken_khakas/
-  content: 'Словоупотр.: 57 633'
-- text: Устный корпус малокарачкинского говора чувашского языка
-  href: http://lingconlab.ru/chuvash/
-  content: 'Словоупотр.: 6 405'
-- text: Устный корпус лугового марийского языка
-  href: http://lingconlab.ru/spoken_meadow_mari/
-  content: 'Словоупотр.: 11 647'
-- text: Устный корпус адыгейского языка
-  href: http://lingconlab.ru/spoken_adyghe/
-  content: 'Словоупотр.: 9 128'
-- text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
-  href: http://lingconlab.ru/spoken_besleney/
-  content: 'Словоупотр.: 7 955'
-- text: Устный корпус кадарского даргинского
-  href: http://lingconlab.ru/kadar_dargwa/
-  content: 'Словоупотр.: 6 366'
-- text: Устный корпус муиринского даргинского
-  href: http://lingconlab.ru/muira_dargwa/
-  content: 'Словоупотр.: 6 935'
-- text: Устный корпус цнальского говора лезгинского языка
-  href: http://lingconlab.ru/tsnal_lezgi/
-  content: 'Словоупотр.: 5 113'
 - text: Корпус тантынского даргинского
   href: http://lingconlab.ru/tanti_dargwa/search
-  content: 'Словоупотр.: 2 683'
+- text: Устный корпус абазинского языка
+  href: http://lingconlab.ru/spoken_abaza/
+- text: Устный корпус башкирского языка
+  href: http://lingconlab.ru/spoken_bashkir/
+- text: Устный корпус ботлихского языка
+  href: http://lingconlab.ru/botlikh/
+- text: Устный корпус диалектов хакасского языка
+  href: http://lingconlab.ru/spoken_khakas/
+- text: Устный корпус малокарачкинского говора чувашского языка
+  href: http://lingconlab.ru/chuvash/
+- text: Устный корпус лугового марийского языка
+  href: http://lingconlab.ru/spoken_meadow_mari/
+- text: Устный корпус цнальского говора лезгинского языка
+  href: http://lingconlab.ru/tsnal_lezgi/
+- text: Устный корпус адыгейского языка
+  href: http://lingconlab.ru/spoken_adyghe/
+- text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
+  href: http://lingconlab.ru/spoken_besleney/
+- text: Устный корпус кадарского даргинского
+  href: http://lingconlab.ru/kadar_dargwa/
+- text: Устный корпус муиринского даргинского
+  href: http://lingconlab.ru/muira_dargwa/
 

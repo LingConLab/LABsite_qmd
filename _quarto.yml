@@ -44,7 +44,7 @@ website:
         href: http://lingconlab.ru/rogovatka/
       - text: Corpus of Russian spoken in Zvenigorod
         href: http://lingconlab.ru/zvenigorod/
-      - text: Corpus of Shetnevo and Makeevo
+      - text: Corpus of Shetnevo and Makeevo dialect
         href: http://lingconlab.ru/shetnevo/
       - text: Corpus of Spiridonova Buda dialect
         href: http://lingconlab.ru/SpiridonovaBuda/
@@ -105,6 +105,8 @@ website:
       contents:
       - text: Corpus of Standard Dargwa
         href: http://lingconlab.ru/standard_dargwa/
+      - text: Corpus of Tanti Dargwa
+        href: http://lingconlab.ru/tanti_dargwa/search
       - text: Spoken corpus of Abaza
         href: http://lingconlab.ru/spoken_abaza/
       - text: Spoken corpus of Bashkir
@@ -117,6 +119,8 @@ website:
         href: http://lingconlab.ru/chuvash/
       - text: Spoken corpus of Meadow Mari
         href: http://lingconlab.ru/spoken_meadow_mari/
+      - text: Spoken corpus of Tsnal Lezgi
+        href: http://lingconlab.ru/tsnal_lezgi/
       - text: Spoken corpus of West Circassian
         href: http://lingconlab.ru/spoken_adyghe/
       - text: Spoken corpus of the Besleney Dialect of Kabardian
@@ -125,10 +129,6 @@ website:
         href: http://lingconlab.ru/kadar_dargwa/
       - text: Spoken сorpus of Muira Dargwa
         href: http://lingconlab.ru/muira_dargwa/
-      - text: Tsnal Lezgi spoken corpus
-        href: http://lingconlab.ru/tsnal_lezgi/
-      - text: Сorpus of Tanti Dargwa
-        href: http://lingconlab.ru/tanti_dargwa/search
     - section: Dictionaries
       contents:
       - text: Dictionary of Dargwa languages

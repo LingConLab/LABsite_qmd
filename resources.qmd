@@ -4,27 +4,27 @@ listing:
     type: grid
     template: card.ejs
     contents:
-      ymls/dial.yml
+      ymls/dial_card.yml
   - id: l2
     type: grid
     template: card.ejs
     contents:
-      ymls/l2.yml
+      ymls/l2_card.yml
   - id: minority
     type: grid
     template: card.ejs
     contents:
-      ymls/minority.yml
+      ymls/minority_card.yml
   - id: dicts
     type: grid
     template: card.ejs
     contents:
-      ymls/dicts.yml
+      ymls/dicts_card.yml
   - id: other
     type: grid
     template: card.ejs
     contents:
-      ymls/other.yml
+      ymls/other_card.yml
 ---
 
 
