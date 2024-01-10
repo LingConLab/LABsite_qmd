@@ -44,6 +44,7 @@ map.feature(fe$lang,
             zoom.control = TRUE,
             popup = paste("<b>Place name:</b>", fe$place, "<br>",
                           "<b>Project:</b>", '<a target="_blank" href="', fe$link, '">', fe$name),
+            tile = "Esri.WorldGrayCanvas",
             width = 6)
 ```
 
