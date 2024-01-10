@@ -1,24 +1,24 @@
-- text: Карельский русский
-  href: http://lingconlab.ru/karelrus/
-  content: 'Словоупотр.: 578 646'
-- text: Бесермянский русский
-  href: http://lingconlab.ru/BesermanRus/
-  content: 'Словоупотр.: 97 216'
-- text: Цыганский русский
-  href: http://lingconlab.ru/romarus/
-  content: 'Словоупотр.: 41 767'
 - text: Башкирский русский
   href: http://lingconlab.ru/BashkirRus/
   content: 'Словоупотр.: 93 127'
-- text: Чувашский русский
-  href: http://lingconlab.ru/ChuvashRus/
-  content: 'Словоупотр.: 46 307'
+- text: Бесермянский русский
+  href: http://lingconlab.ru/BesermanRus/
+  content: 'Словоупотр.: 97 216'
 - text: Дагестанский русский
   href: http://parasolcorpus.org/dagrus/
   content: 'Словоупотр.: 376 717'
+- text: Карельский русский
+  href: http://lingconlab.ru/karelrus/
+  content: 'Словоупотр.: 578 646'
 - text: Марийский русский
   href: http://lingconlab.ru/MariRus/
   content: 'Словоупотр.: 69 109'
+- text: Цыганский русский
+  href: http://lingconlab.ru/romarus/
+  content: 'Словоупотр.: 41 767'
+- text: Чувашский русский
+  href: http://lingconlab.ru/ChuvashRus/
+  content: 'Словоупотр.: 46 307'
 - text: Якутский русский
   href: http://lingconlab.ru/cs_yakut/
   content: 'Словоупотр.: 15 139'

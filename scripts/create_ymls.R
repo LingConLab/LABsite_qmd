@@ -23,6 +23,21 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/dial.yml")
 
+filtered |> 
+  arrange(name_ru) ->
+  filtered
+
+map(seq_along(filtered$name), function(i){
+  list(text = filtered$name_ru[i],
+       href = filtered$link[i])
+}) |> 
+  as_yml() |> 
+  use_yml_file("ymls/dial_ru.yml")
+
+filtered |> 
+  arrange(card_title) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
@@ -32,12 +47,9 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/dial_card.yml")
 
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name_ru[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/dial_ru.yml")
+filtered |> 
+  arrange(card_title_ru) ->
+  filtered
 
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title_ru[i],
@@ -63,6 +75,10 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/l2.yml")
 
+filtered |> 
+  arrange(card_title) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
@@ -72,12 +88,20 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/l2_card.yml")
 
+filtered |> 
+  arrange(name_ru) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$name_ru[i],
        href = filtered$link[i])
 }) |> 
   as_yml() |> 
   use_yml_file("ymls/l2_ru.yml")
+
+filtered |> 
+  arrange(card_title_ru) ->
+  filtered
 
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title_ru[i],
@@ -104,6 +128,10 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/minority.yml")
 
+filtered |> 
+  arrange(card_title) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
@@ -113,6 +141,10 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/minority_card.yml")
 
+filtered |> 
+  arrange(name_ru) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$name_ru[i],
        href = filtered$link[i])
@@ -120,8 +152,12 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/minority_ru.yml")
 
+filtered |> 
+  arrange(card_title_ru) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
-  list(text = filtered$card_title[i],
+  list(text = filtered$card_title_ru[i],
        href = filtered$link[i],
        content = str_c("Словоупотр.: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
@@ -144,6 +180,10 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/dicts.yml")
 
+filtered |> 
+  arrange(card_title) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
@@ -153,12 +193,20 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/dicts_card.yml")
 
+filtered |> 
+  arrange(name_ru) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$name_ru[i],
        href = filtered$link[i])
 }) |> 
   as_yml() |> 
   use_yml_file("ymls/dicts_ru.yml")
+
+filtered |> 
+  arrange(card_title_ru) ->
+  filtered
 
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title_ru[i],
@@ -184,6 +232,10 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/other.yml")
 
+filtered |> 
+  arrange(card_title) ->
+  filtered
+
 map(seq_along(filtered$name), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i])
@@ -191,12 +243,20 @@ map(seq_along(filtered$name), function(i){
   as_yml() |> 
   use_yml_file("ymls/other_card.yml")
 
+filtered |> 
+  arrange(name_ru) ->
+  filtered
+
 map(seq_along(filtered$name_ru), function(i){
   list(text = filtered$name_ru[i],
        href = filtered$link[i])
 }) |> 
   as_yml() |> 
   use_yml_file("ymls/other_ru.yml")
+
+filtered |> 
+  arrange(card_title_ru) ->
+  filtered
 
 map(seq_along(filtered$name_ru), function(i){
   list(text = filtered$card_title_ru[i],

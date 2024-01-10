@@ -1,40 +1,40 @@
-- text: Standard Dargwa
-  href: http://lingconlab.ru/standard_dargwa/
-  content: 'Словоупотр.: 6 382 427'
-- text: Tanti Dargwa
-  href: http://lingconlab.ru/tanti_dargwa/search
-  content: 'Словоупотр.: 2 683'
-- text: Abaza
+- text: Абазинский язык
   href: http://lingconlab.ru/spoken_abaza/
   content: 'Словоупотр.: 3 636'
-- text: Bashkir
-  href: http://lingconlab.ru/spoken_bashkir/
-  content: 'Словоупотр.: 28 202'
-- text: Botlikh
-  href: http://lingconlab.ru/botlikh/
-  content: 'Словоупотр.: 1 603'
-- text: Khakas
-  href: http://lingconlab.ru/spoken_khakas/
-  content: 'Словоупотр.: 57 633'
-- text: Malokarachkin Chuvash
-  href: http://lingconlab.ru/chuvash/
-  content: 'Словоупотр.: 6 405'
-- text: Meadow Mari
-  href: http://lingconlab.ru/spoken_meadow_mari/
-  content: 'Словоупотр.: 11 647'
-- text: Tsnal Lezgi
-  href: http://lingconlab.ru/tsnal_lezgi/
-  content: 'Словоупотр.: 5 113'
-- text: Adyghe
+- text: Адыгейский язык
   href: http://lingconlab.ru/spoken_adyghe/
   content: 'Словоупотр.: 9 128'
-- text: Kabardian
+- text: Башкирский язык
+  href: http://lingconlab.ru/spoken_bashkir/
+  content: 'Словоупотр.: 28 202'
+- text: Ботлихский язык
+  href: http://lingconlab.ru/botlikh/
+  content: 'Словоупотр.: 1 603'
+- text: Кабардино-черкесский язык
   href: http://lingconlab.ru/spoken_besleney/
   content: 'Словоупотр.: 7 955'
-- text: Kadar Dargwa
+- text: Кадарский даргинский язык
   href: http://lingconlab.ru/kadar_dargwa/
   content: 'Словоупотр.: 6 366'
-- text: Muira Dargwa
+- text: Литературный даргинский язык
+  href: http://lingconlab.ru/standard_dargwa/
+  content: 'Словоупотр.: 6 382 427'
+- text: Луговой марийский язык
+  href: http://lingconlab.ru/spoken_meadow_mari/
+  content: 'Словоупотр.: 11 647'
+- text: Малокарачкинского говор чувашского языка
+  href: http://lingconlab.ru/chuvash/
+  content: 'Словоупотр.: 6 405'
+- text: Муиринский даргинский язык
   href: http://lingconlab.ru/muira_dargwa/
   content: 'Словоупотр.: 6 935'
+- text: Тантынский даргинский
+  href: http://lingconlab.ru/tanti_dargwa/search
+  content: 'Словоупотр.: 2 683'
+- text: Хакасский язык
+  href: http://lingconlab.ru/spoken_khakas/
+  content: 'Словоупотр.: 57 633'
+- text: Цнальский диалект лезгинского языка
+  href: http://lingconlab.ru/tsnal_lezgi/
+  content: 'Словоупотр.: 5 113'
 
