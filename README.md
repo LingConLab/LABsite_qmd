@@ -1,14 +1,14 @@
-Site with Resources of the Linguistic Convergence Laboratory.
+Site with the Resources of the Linguistic Convergence Laboratory.
 
-## Prerequisits
+## Prerequisites
 
-The system should have an `R`, `quarto` and the following R packages: `tidyverse`, `ymlthis`, and `yaml`. It is also nice to have `GNU Make`, but it is possible to complile website without it.
+The system should have `R`, `quarto` and the following R packages: `tidyverse`, `ymlthis`, and `yaml`. It would be good to have `GNU Make` too, but it is also possible to complile the website without it.
 
 ## Compilation
 
 In order to compile you can clone the repository, `cd` to it and type `make`.
 
-If you do not have `GNU Make` on the system, you can compile English and Russian versions of the website manually:
+If you do not have `GNU Make` on the system, you can compile the English and Russian versions of the website manually:
 
 a) English version
 
@@ -24,16 +24,16 @@ quarto render ./ru
 
 ## Update of the website
 
-1. In order to update the website you need to update information in `data.tsv`. In case you need to change text of the website, see `index.qmd`, `resources.qmd`, `ru/index.qmd`, and `ru/resources.qmd`.
-2. After the update you need to run an R script stored in `scripts/create_ymls.R`. This script will create a bunch of `.yml` files in the `./ymls` folder including two general `.yml` files: `_quarto-english.yml` and `_quarto-russian.yml`.
-3. After the update of `.yml` files you need to replace files in `./` and `./ru` folders:
+1. To update the website you will need to update information in `data.tsv`. In case you need to change the text of the website, see `index.qmd`, `resources.qmd`, `ru/index.qmd`, and `ru/resources.qmd`.
+2. After the update you will need to run the R script stored in `scripts/create_ymls.R`. This script will create a bunch of `.yml` files in the `./ymls` folder including two general `.yml` files: `_quarto-english.yml` and `_quarto-russian.yml`.
+3. After the update of the `.yml` files you will need to replace the files in the `./` and `./ru` folders:
 
 ```
 cp ymls/_quarto-english.yml ./_quarto.yml
 cp ymls/_quarto-russian.yml ru/_quarto.yml
 ```
 
-4. After `_quarto.yml` is updated in all folders, we can render the site as in [compilation section](#compilation).
+4. Once `_quarto.yml` is updated in all folders, we can render the site as in the [compilation section](#compilation).
 
 ## Update the website on the server
 
@@ -43,7 +43,7 @@ cp ymls/_quarto-russian.yml ru/_quarto.yml
 tar -cf site.tar docs/*
 ```
 
-2. Pull archive to the server:
+2. Pull the archive to the server:
 
 ```
 rsync -avz /path/to/your/archive/site.tar lingconlab.ru:/home/your_username/
