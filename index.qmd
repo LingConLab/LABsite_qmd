@@ -28,18 +28,22 @@ library(tidyverse)
 library(lingtypology)
 
 read_tsv("data.tsv") |> 
-  mutate(subtype = case_when(subtype == 'bilingual' ~ 'bilingual corpus',
-                             subtype == 'dialectal' ~ 'dialect corpus',
+  mutate(subtype = case_when(subtype == 'bilingual' ~ 'bilingual Russian corpus',
+                             subtype == 'dialectal' ~ 'Russian dialect corpus',
                              subtype == 'minority' ~ 'corpus of minority languages',
                              TRUE ~ subtype)) |> 
-  filter(!is.na(lat)) ->
+  filter(!is.na(lat)) |> 
+  mutate(subtype = factor(subtype, levels = c("Russian dialect corpus",
+                                              "bilingual Russian corpus",
+                                              "corpus of minority languages",
+                                              "dictionary"))) ->
   fe
 
 map.feature(fe$lang,
             latitude = fe$lat,
             longitude = fe$lon,
             feature = fe$subtype,
-            color = c('#c5d0cc', '#384845', '#5F9EA0', '#ffbcbc'),
+            color = c('#2c3e50', '#7b8a8b', '#5f9ea0', '#ffbcbc'),
             legend = TRUE,
             zoom.control = TRUE,
             popup = paste("<b>Place name:</b>", fe$place, "<br>",
@@ -53,14 +57,19 @@ map.feature(fe$lang,
 ```{r}
 #| column: screen-right
 
-fe <- fe |> 
-  filter(lat<=44)
+fe |> 
+  filter(lat<=44,
+         !is.na(subtype)) |> 
+  mutate(subtype = factor(subtype, levels = c("bilingual Russian corpus",
+                                              "corpus of minority languages",
+                                              "dictionary"))) ->
+  fe
 
 map.feature(fe$lang,
             latitude = fe$lat,
             longitude = fe$lon,
             feature = fe$subtype,
-            color = c('#c5d0cc', '#384845', '#ffbcbc'),
+            color = c('#7b8a8b', '#5f9ea0', '#ffbcbc'),
             legend = TRUE,
             zoom.control = TRUE,
             popup = paste("<b>Place name:</b>", fe$place, "<br>",
