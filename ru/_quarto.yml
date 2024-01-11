@@ -105,8 +105,6 @@ website:
       contents:
       - text: Корпус литературного даргинского
         href: http://lingconlab.ru/standard_dargwa/
-      - text: Корпус тантынского даргинского
-        href: http://lingconlab.ru/tanti_dargwa/search
       - text: Устный корпус абазинского языка
         href: http://lingconlab.ru/spoken_abaza/
       - text: Устный корпус адыгейского языка
@@ -129,6 +127,8 @@ website:
         href: http://lingconlab.ru/chuvash/
       - text: Устный корпус муиринского даргинского
         href: http://lingconlab.ru/muira_dargwa/
+      - text: Устный корпус тантынского даргинского
+        href: http://lingconlab.ru/tanti_dargwa/search
       - text: Устный корпус цнальского говора лезгинского языка
         href: http://lingconlab.ru/tsnal_lezgi/
     - section: Словари

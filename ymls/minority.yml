@@ -1,7 +1,5 @@
 - text: Corpus of Standard Dargwa
   href: http://lingconlab.ru/standard_dargwa/
-- text: Corpus of Tanti Dargwa
-  href: http://lingconlab.ru/tanti_dargwa/search
 - text: Spoken corpus of Abaza
   href: http://lingconlab.ru/spoken_abaza/
 - text: Spoken corpus of Bashkir
@@ -14,6 +12,8 @@
   href: http://lingconlab.ru/chuvash/
 - text: Spoken corpus of Meadow Mari
   href: http://lingconlab.ru/spoken_meadow_mari/
+- text: Spoken corpus of Tanti Dargwa
+  href: http://lingconlab.ru/tanti_dargwa/search
 - text: Spoken corpus of Tsnal Lezgi
   href: http://lingconlab.ru/tsnal_lezgi/
 - text: Spoken corpus of West Circassian
