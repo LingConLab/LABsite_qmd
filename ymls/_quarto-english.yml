@@ -149,10 +149,10 @@ website:
         href: https://lingconlab.github.io/rutul_dialectology/
       - text: DAG < APT
         href: https://lingconlab.github.io/DAG-APT/
-      - text: DagLoans
-        href: http://lingconlab.ru/dagloans/
       - text: DagSwadesh
         href: http://lingconlab.ru/dagswadesh/
+      - text: Daghestanian loans database
+        href: http://lingconlab.ru/dagloans/
       - text: Parabible
         href: http://lingconlab.ru/parabible/
       - text: The Andic Dictionaries Examples Database

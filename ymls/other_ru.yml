@@ -1,7 +1,5 @@
 - text: DAG < APT
   href: https://lingconlab.github.io/DAG-APT/
-- text: DagLoans
-  href: http://lingconlab.ru/dagloans/
 - text: DagSwadesh
   href: http://lingconlab.ru/dagswadesh/
 - text: Parabible
@@ -10,6 +8,8 @@
   href: https://lingconlab.github.io/rutul_dialectology/
 - text: Атлас многоязычия в Дагестане
   href: https://multidagestan.com/
+- text: База данных заимствований в языках Дагестана
+  href: http://lingconlab.ru/dagloans/
 - text: База данных примеров андийских словарей
   href: https://lingconlab.github.io/andic_dictionary_examples_database/
 - text: Типологический атлас языков Дагестана
