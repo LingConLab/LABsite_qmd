@@ -25,6 +25,7 @@ website:
     Международная лаборатория языковой конвергенции, НИУ ВШЭ<script>document.getElementById(''year'').innerHTML
     = new Date().getFullYear();</script>'
   navbar:
+    pinned: true
     right:
     - text: en
       href: ./../index.html
@@ -37,109 +38,109 @@ website:
       href: ./resources.html
     - section: Диалектные корпуса
       contents:
-      - text: Корпус говора Мантуровского района Костромской области
-        href: http://lingconlab.ru/manturovo/
-      - text: Корпус говора Средней Пёзы
+      - text: Говор Средней Пёзы
         href: http://lingconlab.ru/pyoza/
-      - text: Корпус говора Хиславичского района
-        href: http://lingconlab.ru/khislavichi/
-      - text: Корпус говора верхней Пинеги и Выи
+      - text: Говор верхней Пинеги и Выи
         href: http://lingconlab.ru/vaduga/
-      - text: Корпус говора города Звенигород
+      - text: Говор г. Звенигород
         href: http://lingconlab.ru/zvenigorod/
-      - text: Корпус говора деревень Шетнево и Макеево
-        href: http://lingconlab.ru/shetnevo/
-      - text: Корпус говора деревни Веегора
+      - text: Говор д. Веегора
         href: http://lingconlab.ru/veegora/
-      - text: Корпус говора деревни Нехочи
+      - text: Говор д. Нехочи
         href: http://lingconlab.ru/nekhochi/
-      - text: Корпус говора села Кеба
+      - text: Говор д. Шетнево и Макеево
+        href: http://lingconlab.ru/shetnevo/
+      - text: Говор с. Кеба
         href: http://lingconlab.ru/keba/
-      - text: Корпус говора села Малинино
+      - text: Говор с. Малинино
         href: http://lingconlab.ru/malinino/
-      - text: Корпус говора села Роговатка
+      - text: Говор с. Роговатка
         href: http://lingconlab.ru/rogovatka/
-      - text: Корпус говора села Спиридонова Буда
+      - text: Говор с. Спиридонова Буда
         href: http://lingconlab.ru/SpiridonovaBuda/
-      - text: Корпус говора села Церковное
+      - text: Говор с. Церковное
         href: http://lingconlab.ru/tserkovnoe/
-      - text: Корпус говоров Средней Пинеги
-        href: http://lingconlab.ru/pinega/
-      - text: Корпус говоров низовья рек Лух и Теза
-        href: http://lingconlab.ru/lukhteza/
-      - text: Корпус говоров окрестностей Михайлова
-        href: http://lingconlab.ru/mikhaylov/
-      - text: Корпус говоров среднего течения Северной Двины
-        href: http://lingconlab.ru/dvina/
-      - text: Корпус донских говоров
-        href: http://lingconlab.ru/don_rnd/
-      - text: Корпус опочецких говоров
-        href: http://lingconlab.ru/opochka/
-      - text: Корпус сёл Свишни и Тростное
+      - text: Говор сёл Свишни и Тростное
         href: http://lingconlab.ru/yelets/
-      - text: Корпус устьянских говоров
-        href: http://www.parasolcorpus.org/Pushkino/
-      - text: Лужниковский корпус
+      - text: Говоры  среднего течения Пинеги
+        href: http://lingconlab.ru/pinega/
+      - text: Говоры низовья рек Лух и Теза
+        href: http://lingconlab.ru/lukhteza/
+      - text: Говоры среднего течения Северной Двины
+        href: http://lingconlab.ru/dvina/
+      - text: Донские говоры
+        href: http://lingconlab.ru/don_rnd/
+      - text: Корпус Михайлова
+        href: http://lingconlab.ru/mikhaylov/
+      - text: Лужниковский говор
         href: http://lingconlab.ru/luzhnikovo/
+      - text: Мантуровский говор
+        href: http://lingconlab.ru/manturovo/
+      - text: Опочецкие говоры
+        href: http://lingconlab.ru/opochka/
+      - text: Устьянские говоры
+        href: http://www.parasolcorpus.org/Pushkino/
+      - text: Хиславичский говор
+        href: http://lingconlab.ru/khislavichi/
     - section: Корпуса билингвального русского
       contents:
-      - text: Корпус дагестанского русского
-        href: http://parasolcorpus.org/dagrus/
-      - text: Корпус русской речи Башкирии
+      - text: Башкирский русский
         href: http://lingconlab.ru/BashkirRus/
-      - text: Корпус русской речи Карелии
-        href: http://lingconlab.ru/karelrus/
-      - text: Корпус русской речи Чувашии
-        href: http://lingconlab.ru/ChuvashRus/
-      - text: Корпус русской речи бесермян
+      - text: Бесермянский русский
         href: http://lingconlab.ru/BesermanRus/
-      - text: Корпус русской речи республики Марий Эл
+      - text: Дагестанский русский
+        href: http://parasolcorpus.org/dagrus/
+      - text: Карельский русский
+        href: http://lingconlab.ru/karelrus/
+      - text: Марийский русский
         href: http://lingconlab.ru/MariRus/
-      - text: Корпус цыганского русского
+      - text: Цыганский русский
         href: http://lingconlab.ru/romarus/
-      - text: Якутско-русский корпус переключения кода
+      - text: Чувашский русский
+        href: http://lingconlab.ru/ChuvashRus/
+      - text: Якутский русский
         href: http://lingconlab.ru/cs_yakut/
     - section: Малые языки России
       contents:
-      - text: Корпус литературного даргинского
-        href: http://lingconlab.ru/standard_dargwa/
-      - text: Устный корпус абазинского языка
+      - text: Абазинский язык
         href: http://lingconlab.ru/spoken_abaza/
-      - text: Устный корпус адыгейского языка
+      - text: Адыгейский язык
         href: http://lingconlab.ru/spoken_adyghe/
-      - text: Устный корпус башкирского языка
+      - text: Башкирский язык
         href: http://lingconlab.ru/spoken_bashkir/
-      - text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
-        href: http://lingconlab.ru/spoken_besleney/
-      - text: Устный корпус ботлихского языка
+      - text: Ботлихский язык
         href: http://lingconlab.ru/botlikh/
-      - text: Устный корпус диалектов хакасского языка
-        href: http://lingconlab.ru/spoken_khakas/
-      - text: Устный корпус ицаринского даргинского
+      - text: Ицаринский даргинский
         href: http://lingconlab.ru/itsari_dargwa/
-      - text: Устный корпус кадарского даргинского
+      - text: Кабардино-черкесский язык
+        href: http://lingconlab.ru/spoken_besleney/
+      - text: Кадарский даргинский
         href: http://lingconlab.ru/kadar_dargwa/
-      - text: Устный корпус лугового марийского языка
+      - text: Литературный даргинский язык
+        href: http://lingconlab.ru/standard_dargwa/
+      - text: Луговой марийский язык
         href: http://lingconlab.ru/spoken_meadow_mari/
-      - text: Устный корпус малокарачкинского говора чувашского языка
+      - text: Малокарачкинского говор чувашского языка
         href: http://lingconlab.ru/chuvash/
-      - text: Устный корпус муиринского даргинского
+      - text: Муиринский даргинский
         href: http://lingconlab.ru/muira_dargwa/
-      - text: Устный корпус тантынского даргинского
+      - text: Тантынский даргинский
         href: http://lingconlab.ru/tanti_dargwa/search
-      - text: Устный корпус цнальского говора лезгинского языка
+      - text: Хакасский язык
+        href: http://lingconlab.ru/spoken_khakas/
+      - text: Цнальский диалект лезгинского языка
         href: http://lingconlab.ru/tsnal_lezgi/
     - section: Словари
       contents:
-      - text: Словарь даргинских языков
+      - text: Даргинские языки
         href: http://lingconlab.ru/dargwa_dict/
-      - text: Словарь мегебского языка
+      - text: Мегебский язык
         href: http://lingconlab.ru/MehwebDict/
-      - text: Словарь рутульского языка
+      - text: Рутульский язык
         href: https://linghub.ru/rutuldict/
-      - text: Словарь тукитинского языка
+      - text: Тукитинский язык
         href: http://lingconlab.ru/TukitaDict/
-      - text: Словарь хваршинского языка
+      - text: Хваршинский язык
         href: https://lingconlab.github.io/Khwarshi_dictionary/
     - section: Другие проекты
       contents:

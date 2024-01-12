@@ -13,209 +13,120 @@ map(list.files("ymls", pattern = ".yml", full.names = TRUE), file.remove)
 df |> 
   filter(subtype == "dialectal") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(name) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/dial.yml")
-
-filtered |> 
-  arrange(name_ru) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name_ru[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/dial_ru.yml")
-
-filtered |> 
   arrange(card_title) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
        content = str_c("Tokens: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/dial_card.yml")
+  use_yml_file("ymls/dial.yml")
 
 filtered |> 
   arrange(card_title_ru) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title_ru), function(i){
   list(text = filtered$card_title_ru[i],
        href = filtered$link[i],
        content = str_c("Словоупотр.: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/dial_ru_card.yml")
+  use_yml_file("ymls/dial_ru.yml")
 
 # l2 ----------------------------------------------------------------------
 
 df |> 
   filter(subtype == "bilingual") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(name) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/l2.yml")
-
-filtered |> 
   arrange(card_title) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
        content = str_c("Tokens: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/l2_card.yml")
-
-filtered |> 
-  arrange(name_ru) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name_ru[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/l2_ru.yml")
+  use_yml_file("ymls/l2.yml")
 
 filtered |> 
   arrange(card_title_ru) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title_ru), function(i){
   list(text = filtered$card_title_ru[i],
        href = filtered$link[i],
        content = str_c("Словоупотр.: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/l2_ru_card.yml")
-
+  use_yml_file("ymls/l2_ru.yml")
 
 # minority ----------------------------------------------------------------
 
 df |> 
   filter(subtype == "minority") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(name) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/minority.yml")
-
-filtered |> 
   arrange(card_title) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
        content = str_c("Tokens: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/minority_card.yml")
-
-filtered |> 
-  arrange(name_ru) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name_ru[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/minority_ru.yml")
+  use_yml_file("ymls/minority.yml")
 
 filtered |> 
   arrange(card_title_ru) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title_ru), function(i){
   list(text = filtered$card_title_ru[i],
        href = filtered$link[i],
        content = str_c("Словоупотр.: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/minority_ru_card.yml")
+  use_yml_file("ymls/minority_ru.yml")
 
 # dicts -------------------------------------------------------------------
 
 df |> 
   filter(subtype == "dictionary") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(name) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/dicts.yml")
-
-filtered |> 
   arrange(card_title) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title), function(i){
   list(text = filtered$card_title[i],
        href = filtered$link[i],
        content = str_c("Tokens: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/dicts_card.yml")
-
-filtered |> 
-  arrange(name_ru) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name_ru[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/dicts_ru.yml")
+  use_yml_file("ymls/dicts.yml")
 
 filtered |> 
   arrange(card_title_ru) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
+map(seq_along(filtered$card_title_ru), function(i){
   list(text = filtered$card_title_ru[i],
        href = filtered$link[i],
        content = str_c("Словоупотр.: ", 
                        filtered$n_tokens[i] |> as.integer() |> format(big.mark = "\u00A0")))
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/dicts_ru_card.yml")
+  use_yml_file("ymls/dicts_ru.yml")
 
 # other -------------------------------------------------------------------
 
@@ -225,45 +136,23 @@ df |>
   arrange(name) ->
   filtered
 
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$name[i],
+map(seq_along(filtered$card_title), function(i){
+  list(text = filtered$card_title[i],
        href = filtered$link[i])
 }) |> 
   as_yml() |> 
   use_yml_file("ymls/other.yml")
 
 filtered |> 
-  arrange(card_title) ->
-  filtered
-
-map(seq_along(filtered$name), function(i){
-  list(text = filtered$card_title[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/other_card.yml")
-
-filtered |> 
-  arrange(name_ru) ->
-  filtered
-
-map(seq_along(filtered$name_ru), function(i){
-  list(text = filtered$name_ru[i],
-       href = filtered$link[i])
-}) |> 
-  as_yml() |> 
-  use_yml_file("ymls/other_ru.yml")
-
-filtered |> 
   arrange(card_title_ru) ->
   filtered
 
-map(seq_along(filtered$name_ru), function(i){
+map(seq_along(filtered$card_title_ru), function(i){
   list(text = filtered$card_title_ru[i],
        href = filtered$link[i])
 }) |> 
   as_yml() |> 
-  use_yml_file("ymls/other_ru_card.yml")
+  use_yml_file("ymls/other_ru.yml")
 
 # quarto-english ----------------------------------------------------------
 
@@ -282,7 +171,8 @@ list(project = list(type = "website",
      website = list(search = FALSE,
                     favicon = "images/favicon-32x32.png",
                     `page-footer` = "![](images/hse_logo.png){width=12mm}<br>2021--<span id='year'></span>, Linguistic Convergence Laboratory, HSE University<script>document.getElementById('year').innerHTML = new Date().getFullYear();</script>",
-                    navbar = list(right = list(list(text = "ru",
+                    navbar = list(pinned = TRUE,
+                                  right = list(list(text = "ru",
                                                     href = "./ru/index.html"))),
                     sidebar = list(style = "docked",
                                    background = "dark",
@@ -293,13 +183,13 @@ list(project = list(type = "website",
                                      list(section = "Dialect corpora",
                                           contents = read_yaml("ymls/dial.yml")),
                                      list(section = "Corpora of bilingual Russian",
-                                          contents = read_yaml("ymls/l2.yml")),
+                                          contents = read_yaml("ymls/l2.yml") |> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Corpora of minority languages of Russia",
-                                          contents = read_yaml("ymls/minority.yml")),
+                                          contents = read_yaml("ymls/minority.yml")|> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Dictionaries",
-                                          contents = read_yaml("ymls/dicts.yml")),
+                                          contents = read_yaml("ymls/dicts.yml") |> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Other Resources",
-                                          contents = read_yaml("ymls/other.yml") |> modify_depth(1, function(i) discard_at(i, "content"))))))) |> 
+                                          contents = read_yaml("ymls/other.yml")))))) |> 
   as_yml() |> 
   use_yml_file("ymls/_quarto-english.yml")
 
@@ -320,7 +210,8 @@ list(project = list(type = "website",
      website = list(search = FALSE,
                     favicon = "../images/favicon-32x32.png",
                     `page-footer` = "![](../images/hse_logo.png){width=12mm}<br>2021--<span id='year'></span>, Международная лаборатория языковой конвергенции, НИУ ВШЭ<script>document.getElementById('year').innerHTML = new Date().getFullYear();</script>",
-                    navbar = list(right = list(list(text = "en",
+                    navbar = list(pinned = TRUE,
+                                  right = list(list(text = "en",
                                                     href = "./../index.html"))),
                     sidebar = list(style = "docked",
                                    background = "dark",
@@ -329,14 +220,14 @@ list(project = list(type = "website",
                                      list(text = "Обзор ресурсов",
                                           href = "./resources.html"),
                                      list(section = "Диалектные корпуса",
-                                          contents = read_yaml("ymls/dial_ru.yml")),
+                                          contents = read_yaml("ymls/dial_ru.yml") |> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Корпуса билингвального русского",
-                                          contents = read_yaml("ymls/l2_ru.yml")),
+                                          contents = read_yaml("ymls/l2_ru.yml") |> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Малые языки России",
-                                          contents = read_yaml("ymls/minority_ru.yml")),
+                                          contents = read_yaml("ymls/minority_ru.yml") |> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Словари",
-                                          contents = read_yaml("ymls/dicts_ru.yml")),
+                                          contents = read_yaml("ymls/dicts_ru.yml") |> modify_depth(1, function(i) discard_at(i, "content"))),
                                      list(section = "Другие проекты",
-                                          contents = read_yaml("ymls/other_ru.yml") |> modify_depth(1, function(i) discard_at(i, "content"))))))) |> 
+                                          contents = read_yaml("ymls/other_ru.yml")))))) |> 
   as_yml() |> 
   use_yml_file("ymls/_quarto-russian.yml")

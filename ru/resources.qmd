@@ -4,27 +4,27 @@ listing:
     type: grid
     template: ../card_ru.ejs
     contents:
-      ../ymls/dial_ru_card.yml
+      ../ymls/dial_ru.yml
   - id: l2_ru
     type: grid
     template: ../card_ru.ejs
     contents:
-      ../ymls/l2_ru_card.yml
+      ../ymls/l2_ru.yml
   - id: minority_ru
     type: grid
     template: ../card_ru.ejs
     contents:
-      ../ymls/minority_ru_card.yml
+      ../ymls/minority_ru.yml
   - id: dicts_ru
     type: grid
     template: ../card_ru.ejs
     contents:
-      ../ymls/dicts_ru_card.yml
+      ../ymls/dicts_ru.yml
   - id: other_ru
     type: grid
     template: ../card_ru.ejs
     contents:
-      ../ymls/other_ru_card.yml
+      ../ymls/other_ru.yml
 ---
 
 ## Устные корпуса {#spoken-corpora-ru}

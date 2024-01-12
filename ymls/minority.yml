@@ -1,29 +1,43 @@
-- text: Corpus of Standard Dargwa
-  href: http://lingconlab.ru/standard_dargwa/
-- text: Spoken corpus of Abaza
+- text: Abaza
   href: http://lingconlab.ru/spoken_abaza/
-- text: Spoken corpus of Bashkir
+  content: 'Tokens: 3 636'
+- text: Bashkir
   href: http://lingconlab.ru/spoken_bashkir/
-- text: Spoken corpus of Botlikh
-  href: http://lingconlab.ru/botlikh/
-- text: Spoken corpus of Khakas
-  href: http://lingconlab.ru/spoken_khakas/
-- text: Spoken corpus of Malokarachkin Chuvash
-  href: http://lingconlab.ru/chuvash/
-- text: Spoken corpus of Meadow Mari
-  href: http://lingconlab.ru/spoken_meadow_mari/
-- text: Spoken corpus of Tanti Dargwa
-  href: http://lingconlab.ru/tanti_dargwa/search
-- text: Spoken corpus of Tsnal Lezgi
-  href: http://lingconlab.ru/tsnal_lezgi/
-- text: Spoken corpus of West Circassian
-  href: http://lingconlab.ru/spoken_adyghe/
-- text: Spoken corpus of the Besleney Dialect of Kabardian
+  content: 'Tokens: 28 202'
+- text: Besleney Kabardian
   href: http://lingconlab.ru/spoken_besleney/
-- text: Spoken сorpus of Itsari Dargwa
+  content: 'Tokens: 7 955'
+- text: Botlikh
+  href: http://lingconlab.ru/botlikh/
+  content: 'Tokens: 1 603'
+- text: Itsari Dargwa
   href: http://lingconlab.ru/itsari_dargwa/
-- text: Spoken сorpus of Kadar Dargwa
+  content: 'Tokens: 2 535'
+- text: Kadar Dargwa
   href: http://lingconlab.ru/kadar_dargwa/
-- text: Spoken сorpus of Muira Dargwa
+  content: 'Tokens: 6 366'
+- text: Khakas
+  href: http://lingconlab.ru/spoken_khakas/
+  content: 'Tokens: 57 633'
+- text: Malokarachkin Chuvash
+  href: http://lingconlab.ru/chuvash/
+  content: 'Tokens: 6 405'
+- text: Meadow Mari
+  href: http://lingconlab.ru/spoken_meadow_mari/
+  content: 'Tokens: 11 647'
+- text: Muira Dargwa
   href: http://lingconlab.ru/muira_dargwa/
+  content: 'Tokens: 6 935'
+- text: Standard Dargwa
+  href: http://lingconlab.ru/standard_dargwa/
+  content: 'Tokens: 6 382 427'
+- text: Tanti Dargwa
+  href: http://lingconlab.ru/tanti_dargwa/search
+  content: 'Tokens: 2 683'
+- text: Tsnal Lezgi
+  href: http://lingconlab.ru/tsnal_lezgi/
+  content: 'Tokens: 5 113'
+- text: West Circassian
+  href: http://lingconlab.ru/spoken_adyghe/
+  content: 'Tokens: 9 128'
 

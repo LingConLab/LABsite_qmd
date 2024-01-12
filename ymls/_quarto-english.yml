@@ -24,6 +24,7 @@ website:
     Linguistic Convergence Laboratory, HSE University<script>document.getElementById(''year'').innerHTML
     = new Date().getFullYear();</script>'
   navbar:
+    pinned: true
     right:
     - text: ru
       href: ./ru/index.html
@@ -36,110 +37,131 @@ website:
       href: ./resources.html
     - section: Dialect corpora
       contents:
-      - text: Corpus of Lukh and Teza river basins dialects
-        href: http://lingconlab.ru/lukhteza/
-      - text: Corpus of Opochetsky dialects
-        href: http://lingconlab.ru/opochka/
-      - text: Corpus of Rogovatka dialect
-        href: http://lingconlab.ru/rogovatka/
-      - text: Corpus of Russian spoken in Zvenigorod
-        href: http://lingconlab.ru/zvenigorod/
-      - text: Corpus of Shetnevo and Makeevo dialect
-        href: http://lingconlab.ru/shetnevo/
-      - text: Corpus of Spiridonova Buda dialect
-        href: http://lingconlab.ru/SpiridonovaBuda/
-      - text: Corpus of the Russian dialect spoken in Keba
-        href: http://lingconlab.ru/keba/
-      - text: Corpus of the Russian dialect spoken in Khislavichi district
-        href: http://lingconlab.ru/khislavichi/
-      - text: Corpus of the Russian dialect spoken in Manturovo
-        href: http://lingconlab.ru/manturovo/
-      - text: Corpus of the Russian dialect spoken in Nekhochi
-        href: http://lingconlab.ru/nekhochi/
-      - text: Corpus of the Russian dialect spoken in Tserkovnoe
-        href: http://lingconlab.ru/tserkovnoe/
-      - text: Corpus of the Russian dialect spoken in the Mikhaylov area
-        href: http://lingconlab.ru/mikhaylov/
-      - text: Corpus of the Russian dialect spoken in the village Malinino
-        href: http://lingconlab.ru/malinino/
-      - text: Corpus of the Russian dialect spoken in the village Veegora
-        href: http://lingconlab.ru/veegora/
-      - text: Corpus of the Russian dialect spoken in the villages of the Don river
+      - text: Don river dialects
         href: http://lingconlab.ru/don_rnd/
-      - text: Corpus of the Russian dialect spoken in the villages of the Middle Northern
-          Dvina
-        href: http://lingconlab.ru/dvina/
-      - text: Corpus of the Russian dialect spoken in the villages of the Middle Pinega
-        href: http://lingconlab.ru/pinega/
-      - text: Corpus of the Russian dialect spoken in the villages of the Middle Pyoza
-        href: http://lingconlab.ru/pyoza/
-      - text: Luzhnikovo Corpus
+        content: 'Tokens: 71 600'
+      - text: Keba dialect
+        href: http://lingconlab.ru/keba/
+        content: 'Tokens: 54 535'
+      - text: Khislavichi dialect
+        href: http://lingconlab.ru/khislavichi/
+        content: 'Tokens: 260 793'
+      - text: Lukh and Teza river basins dialects
+        href: http://lingconlab.ru/lukhteza/
+        content: 'Tokens: 146 350'
+      - text: Luzhnikovo dialect
         href: http://lingconlab.ru/luzhnikovo/
+        content: 'Tokens: 68 666'
+      - text: Malinino dialect
+        href: http://lingconlab.ru/malinino/
+        content: 'Tokens: 138 943'
+      - text: Manturovo dialect
+        href: http://lingconlab.ru/manturovo/
+        content: 'Tokens: 113 837'
+      - text: Middle Northern Dvina dialects
+        href: http://lingconlab.ru/dvina/
+        content: 'Tokens: 68 010'
+      - text: Middle Pinega dialects
+        href: http://lingconlab.ru/pinega/
+        content: 'Tokens: 43 270'
+      - text: Middle Pyoza dialect
+        href: http://lingconlab.ru/pyoza/
+        content: 'Tokens: 79 566'
+      - text: Mikhaylov Corpus
+        href: http://lingconlab.ru/mikhaylov/
+        content: 'Tokens: 47 579'
+      - text: Nekhochi dialect
+        href: http://lingconlab.ru/nekhochi/
+        content: 'Tokens: 88 965'
+      - text: Opochetsky dialects
+        href: http://lingconlab.ru/opochka/
+        content: 'Tokens: 68 741'
+      - text: Rogovatka dialect
+        href: http://lingconlab.ru/rogovatka/
+        content: 'Tokens: 100 047'
+      - text: Shetnevo and Makeevo dialect
+        href: http://lingconlab.ru/shetnevo/
+        content: 'Tokens: 95 335'
+      - text: Spiridonova Buda dialect
+        href: http://lingconlab.ru/SpiridonovaBuda/
+        content: 'Tokens: 70 565'
       - text: Svishni and Trostnoe Corpus
         href: http://lingconlab.ru/yelets/
-      - text: Upper Pinega and Vyya Corpus
+        content: 'Tokens: 24 414'
+      - text: Tserkovnoe dialect
+        href: http://lingconlab.ru/tserkovnoe/
+        content: 'Tokens: 39 469'
+      - text: Upper Pinega and Vyya river basins dialect
         href: http://lingconlab.ru/vaduga/
-      - text: Ustja River Basin Corpus
+        content: 'Tokens: 70 803'
+      - text: Ustja River Basin dialects
         href: http://www.parasolcorpus.org/Pushkino/
+        content: 'Tokens: 959 782'
+      - text: Veegora dialect
+        href: http://lingconlab.ru/veegora/
+        content: 'Tokens: 91 514'
+      - text: Zvenigorod dialect
+        href: http://lingconlab.ru/zvenigorod/
+        content: 'Tokens: 68 324'
     - section: Corpora of bilingual Russian
       contents:
-      - text: Corpus of Karelian Russian
-        href: http://lingconlab.ru/karelrus/
-      - text: Corpus of Russian spoken by the Besermans
-        href: http://lingconlab.ru/BesermanRus/
-      - text: Corpus of Russian spoken by the Roma
-        href: http://lingconlab.ru/romarus/
-      - text: Corpus of Russian spoken in Bashkortostan
+      - text: Bashkortostan Russian
         href: http://lingconlab.ru/BashkirRus/
-      - text: Corpus of Russian spoken in Chuvashia
+      - text: Beserman Russian
+        href: http://lingconlab.ru/BesermanRus/
+      - text: Chuvash Russian
         href: http://lingconlab.ru/ChuvashRus/
-      - text: Corpus of Russian spoken in Daghestan
+      - text: Daghestanian Russian
         href: http://parasolcorpus.org/dagrus/
-      - text: Corpus of Russian spoken in Mari El
+      - text: Karelian Russian
+        href: http://lingconlab.ru/karelrus/
+      - text: Mari Russian
         href: http://lingconlab.ru/MariRus/
-      - text: Yakut-Russian Code-Switching Corpus
+      - text: Romani Russian
+        href: http://lingconlab.ru/romarus/
+      - text: Yakut Russian
         href: http://lingconlab.ru/cs_yakut/
     - section: Corpora of minority languages of Russia
       contents:
-      - text: Corpus of Standard Dargwa
-        href: http://lingconlab.ru/standard_dargwa/
-      - text: Spoken corpus of Abaza
+      - text: Abaza
         href: http://lingconlab.ru/spoken_abaza/
-      - text: Spoken corpus of Bashkir
+      - text: Bashkir
         href: http://lingconlab.ru/spoken_bashkir/
-      - text: Spoken corpus of Botlikh
-        href: http://lingconlab.ru/botlikh/
-      - text: Spoken corpus of Khakas
-        href: http://lingconlab.ru/spoken_khakas/
-      - text: Spoken corpus of Malokarachkin Chuvash
-        href: http://lingconlab.ru/chuvash/
-      - text: Spoken corpus of Meadow Mari
-        href: http://lingconlab.ru/spoken_meadow_mari/
-      - text: Spoken corpus of Tanti Dargwa
-        href: http://lingconlab.ru/tanti_dargwa/search
-      - text: Spoken corpus of Tsnal Lezgi
-        href: http://lingconlab.ru/tsnal_lezgi/
-      - text: Spoken corpus of West Circassian
-        href: http://lingconlab.ru/spoken_adyghe/
-      - text: Spoken corpus of the Besleney Dialect of Kabardian
+      - text: Besleney Kabardian
         href: http://lingconlab.ru/spoken_besleney/
-      - text: Spoken сorpus of Itsari Dargwa
+      - text: Botlikh
+        href: http://lingconlab.ru/botlikh/
+      - text: Itsari Dargwa
         href: http://lingconlab.ru/itsari_dargwa/
-      - text: Spoken сorpus of Kadar Dargwa
+      - text: Kadar Dargwa
         href: http://lingconlab.ru/kadar_dargwa/
-      - text: Spoken сorpus of Muira Dargwa
+      - text: Khakas
+        href: http://lingconlab.ru/spoken_khakas/
+      - text: Malokarachkin Chuvash
+        href: http://lingconlab.ru/chuvash/
+      - text: Meadow Mari
+        href: http://lingconlab.ru/spoken_meadow_mari/
+      - text: Muira Dargwa
         href: http://lingconlab.ru/muira_dargwa/
+      - text: Standard Dargwa
+        href: http://lingconlab.ru/standard_dargwa/
+      - text: Tanti Dargwa
+        href: http://lingconlab.ru/tanti_dargwa/search
+      - text: Tsnal Lezgi
+        href: http://lingconlab.ru/tsnal_lezgi/
+      - text: West Circassian
+        href: http://lingconlab.ru/spoken_adyghe/
     - section: Dictionaries
       contents:
-      - text: Dictionary of Dargwa languages
+      - text: Dargwa varieties
         href: http://lingconlab.ru/dargwa_dict/
-      - text: Dictionary of the Khwarshi language
+      - text: Khwarshi
         href: https://lingconlab.github.io/Khwarshi_dictionary/
-      - text: Dictionary of the Mehweb language
+      - text: Mehweb
         href: http://lingconlab.ru/MehwebDict/
-      - text: Dictionary of the Rutul language
+      - text: Rutul
         href: https://linghub.ru/rutuldict/
-      - text: Dictionary of the Tukita language
+      - text: Tukita
         href: http://lingconlab.ru/TukitaDict/
     - section: Other Resources
       contents:

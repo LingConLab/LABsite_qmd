@@ -1,11 +1,11 @@
 {
   "listingMap": {
     "resources.qmd": [
-      "../ymls/dial_ru_card.yml",
-      "../ymls/l2_ru_card.yml",
-      "../ymls/minority_ru_card.yml",
-      "../ymls/dicts_ru_card.yml",
-      "../ymls/other_ru_card.yml"
+      "../ymls/dial_ru.yml",
+      "../ymls/l2_ru.yml",
+      "../ymls/minority_ru.yml",
+      "../ymls/dicts_ru.yml",
+      "../ymls/other_ru.yml"
     ]
   }
 }

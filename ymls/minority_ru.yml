@@ -1,29 +1,43 @@
-- text: Корпус литературного даргинского
-  href: http://lingconlab.ru/standard_dargwa/
-- text: Устный корпус абазинского языка
+- text: Абазинский язык
   href: http://lingconlab.ru/spoken_abaza/
-- text: Устный корпус адыгейского языка
+  content: 'Словоупотр.: 3 636'
+- text: Адыгейский язык
   href: http://lingconlab.ru/spoken_adyghe/
-- text: Устный корпус башкирского языка
+  content: 'Словоупотр.: 9 128'
+- text: Башкирский язык
   href: http://lingconlab.ru/spoken_bashkir/
-- text: Устный корпус бесленеевского диалекта кабардино-черкесского языка
-  href: http://lingconlab.ru/spoken_besleney/
-- text: Устный корпус ботлихского языка
+  content: 'Словоупотр.: 28 202'
+- text: Ботлихский язык
   href: http://lingconlab.ru/botlikh/
-- text: Устный корпус диалектов хакасского языка
-  href: http://lingconlab.ru/spoken_khakas/
-- text: Устный корпус ицаринского даргинского
+  content: 'Словоупотр.: 1 603'
+- text: Ицаринский даргинский
   href: http://lingconlab.ru/itsari_dargwa/
-- text: Устный корпус кадарского даргинского
+  content: 'Словоупотр.: 2 535'
+- text: Кабардино-черкесский язык
+  href: http://lingconlab.ru/spoken_besleney/
+  content: 'Словоупотр.: 7 955'
+- text: Кадарский даргинский
   href: http://lingconlab.ru/kadar_dargwa/
-- text: Устный корпус лугового марийского языка
+  content: 'Словоупотр.: 6 366'
+- text: Литературный даргинский язык
+  href: http://lingconlab.ru/standard_dargwa/
+  content: 'Словоупотр.: 6 382 427'
+- text: Луговой марийский язык
   href: http://lingconlab.ru/spoken_meadow_mari/
-- text: Устный корпус малокарачкинского говора чувашского языка
+  content: 'Словоупотр.: 11 647'
+- text: Малокарачкинского говор чувашского языка
   href: http://lingconlab.ru/chuvash/
-- text: Устный корпус муиринского даргинского
+  content: 'Словоупотр.: 6 405'
+- text: Муиринский даргинский
   href: http://lingconlab.ru/muira_dargwa/
-- text: Устный корпус тантынского даргинского
+  content: 'Словоупотр.: 6 935'
+- text: Тантынский даргинский
   href: http://lingconlab.ru/tanti_dargwa/search
-- text: Устный корпус цнальского говора лезгинского языка
+  content: 'Словоупотр.: 2 683'
+- text: Хакасский язык
+  href: http://lingconlab.ru/spoken_khakas/
+  content: 'Словоупотр.: 57 633'
+- text: Цнальский диалект лезгинского языка
   href: http://lingconlab.ru/tsnal_lezgi/
+  content: 'Словоупотр.: 5 113'
 

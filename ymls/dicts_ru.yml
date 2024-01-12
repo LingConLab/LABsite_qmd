@@ -1,11 +1,16 @@
-- text: Словарь даргинских языков
+- text: Даргинские языки
   href: http://lingconlab.ru/dargwa_dict/
-- text: Словарь мегебского языка
+  content: 'Словоупотр.: 7 917'
+- text: Мегебский язык
   href: http://lingconlab.ru/MehwebDict/
-- text: Словарь рутульского языка
+  content: 'Словоупотр.: 1 132'
+- text: Рутульский язык
   href: https://linghub.ru/rutuldict/
-- text: Словарь тукитинского языка
+  content: 'Словоупотр.: 738'
+- text: Тукитинский язык
   href: http://lingconlab.ru/TukitaDict/
-- text: Словарь хваршинского языка
+  content: 'Словоупотр.: 1 175'
+- text: Хваршинский язык
   href: https://lingconlab.github.io/Khwarshi_dictionary/
+  content: 'Словоупотр.: 10 291'
 

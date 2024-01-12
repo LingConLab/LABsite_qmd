@@ -1,17 +1,25 @@
-- text: Корпус дагестанского русского
-  href: http://parasolcorpus.org/dagrus/
-- text: Корпус русской речи Башкирии
+- text: Башкирский русский
   href: http://lingconlab.ru/BashkirRus/
-- text: Корпус русской речи Карелии
-  href: http://lingconlab.ru/karelrus/
-- text: Корпус русской речи Чувашии
-  href: http://lingconlab.ru/ChuvashRus/
-- text: Корпус русской речи бесермян
+  content: 'Словоупотр.: 93 127'
+- text: Бесермянский русский
   href: http://lingconlab.ru/BesermanRus/
-- text: Корпус русской речи республики Марий Эл
+  content: 'Словоупотр.: 97 216'
+- text: Дагестанский русский
+  href: http://parasolcorpus.org/dagrus/
+  content: 'Словоупотр.: 376 717'
+- text: Карельский русский
+  href: http://lingconlab.ru/karelrus/
+  content: 'Словоупотр.: 578 646'
+- text: Марийский русский
   href: http://lingconlab.ru/MariRus/
-- text: Корпус цыганского русского
+  content: 'Словоупотр.: 69 109'
+- text: Цыганский русский
   href: http://lingconlab.ru/romarus/
-- text: Якутско-русский корпус переключения кода
+  content: 'Словоупотр.: 41 767'
+- text: Чувашский русский
+  href: http://lingconlab.ru/ChuvashRus/
+  content: 'Словоупотр.: 46 307'
+- text: Якутский русский
   href: http://lingconlab.ru/cs_yakut/
+  content: 'Словоупотр.: 15 139'
 

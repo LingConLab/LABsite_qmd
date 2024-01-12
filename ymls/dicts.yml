@@ -1,11 +1,16 @@
-- text: Dictionary of Dargwa languages
+- text: Dargwa varieties
   href: http://lingconlab.ru/dargwa_dict/
-- text: Dictionary of the Khwarshi language
+  content: 'Tokens: 7 917'
+- text: Khwarshi
   href: https://lingconlab.github.io/Khwarshi_dictionary/
-- text: Dictionary of the Mehweb language
+  content: 'Tokens: 10 291'
+- text: Mehweb
   href: http://lingconlab.ru/MehwebDict/
-- text: Dictionary of the Rutul language
+  content: 'Tokens: 1 132'
+- text: Rutul
   href: https://linghub.ru/rutuldict/
-- text: Dictionary of the Tukita language
+  content: 'Tokens: 738'
+- text: Tukita
   href: http://lingconlab.ru/TukitaDict/
+  content: 'Tokens: 1 175'
 
