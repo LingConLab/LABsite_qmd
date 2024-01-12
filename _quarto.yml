@@ -133,6 +133,8 @@ website:
       contents:
       - text: Dictionary of Dargwa languages
         href: http://lingconlab.ru/dargwa_dict/
+      - text: Dictionary of the Khwarshi language
+        href: https://lingconlab.github.io/Khwarshi_dictionary/
       - text: Dictionary of the Mehweb language
         href: http://lingconlab.ru/MehwebDict/
       - text: Dictionary of the Rutul language
