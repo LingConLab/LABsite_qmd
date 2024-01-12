@@ -40,108 +40,157 @@ website:
       contents:
       - text: Говор Средней Пёзы
         href: http://lingconlab.ru/pyoza/
+        content: 'Словоупотр.: 79 566'
       - text: Говор верхней Пинеги и Выи
         href: http://lingconlab.ru/vaduga/
+        content: 'Словоупотр.: 70 803'
       - text: Говор г. Звенигород
         href: http://lingconlab.ru/zvenigorod/
+        content: 'Словоупотр.: 68 324'
       - text: Говор д. Веегора
         href: http://lingconlab.ru/veegora/
+        content: 'Словоупотр.: 91 514'
       - text: Говор д. Нехочи
         href: http://lingconlab.ru/nekhochi/
+        content: 'Словоупотр.: 88 965'
       - text: Говор д. Шетнево и Макеево
         href: http://lingconlab.ru/shetnevo/
+        content: 'Словоупотр.: 95 335'
       - text: Говор с. Кеба
         href: http://lingconlab.ru/keba/
+        content: 'Словоупотр.: 54 535'
       - text: Говор с. Малинино
         href: http://lingconlab.ru/malinino/
+        content: 'Словоупотр.: 138 943'
       - text: Говор с. Роговатка
         href: http://lingconlab.ru/rogovatka/
+        content: 'Словоупотр.: 100 047'
       - text: Говор с. Спиридонова Буда
         href: http://lingconlab.ru/SpiridonovaBuda/
+        content: 'Словоупотр.: 70 565'
       - text: Говор с. Церковное
         href: http://lingconlab.ru/tserkovnoe/
+        content: 'Словоупотр.: 39 469'
       - text: Говор сёл Свишни и Тростное
         href: http://lingconlab.ru/yelets/
+        content: 'Словоупотр.: 24 414'
       - text: Говоры  среднего течения Пинеги
         href: http://lingconlab.ru/pinega/
+        content: 'Словоупотр.: 43 270'
       - text: Говоры низовья рек Лух и Теза
         href: http://lingconlab.ru/lukhteza/
+        content: 'Словоупотр.: 146 350'
       - text: Говоры среднего течения Северной Двины
         href: http://lingconlab.ru/dvina/
+        content: 'Словоупотр.: 68 010'
       - text: Донские говоры
         href: http://lingconlab.ru/don_rnd/
+        content: 'Словоупотр.: 71 600'
       - text: Корпус Михайлова
         href: http://lingconlab.ru/mikhaylov/
+        content: 'Словоупотр.: 47 579'
       - text: Лужниковский говор
         href: http://lingconlab.ru/luzhnikovo/
+        content: 'Словоупотр.: 68 666'
       - text: Мантуровский говор
         href: http://lingconlab.ru/manturovo/
+        content: 'Словоупотр.: 113 837'
       - text: Опочецкие говоры
         href: http://lingconlab.ru/opochka/
+        content: 'Словоупотр.: 68 741'
       - text: Устьянские говоры
         href: http://www.parasolcorpus.org/Pushkino/
+        content: 'Словоупотр.: 959 782'
       - text: Хиславичский говор
         href: http://lingconlab.ru/khislavichi/
+        content: 'Словоупотр.: 260 793'
     - section: Корпуса билингвального русского
       contents:
       - text: Башкирский русский
         href: http://lingconlab.ru/BashkirRus/
+        content: 'Словоупотр.: 93 127'
       - text: Бесермянский русский
         href: http://lingconlab.ru/BesermanRus/
+        content: 'Словоупотр.: 97 216'
       - text: Дагестанский русский
         href: http://parasolcorpus.org/dagrus/
+        content: 'Словоупотр.: 376 717'
       - text: Карельский русский
         href: http://lingconlab.ru/karelrus/
+        content: 'Словоупотр.: 578 646'
       - text: Марийский русский
         href: http://lingconlab.ru/MariRus/
+        content: 'Словоупотр.: 69 109'
       - text: Цыганский русский
         href: http://lingconlab.ru/romarus/
+        content: 'Словоупотр.: 41 767'
       - text: Чувашский русский
         href: http://lingconlab.ru/ChuvashRus/
+        content: 'Словоупотр.: 46 307'
       - text: Якутский русский
         href: http://lingconlab.ru/cs_yakut/
-    - section: Малые языки России
+        content: 'Словоупотр.: 15 139'
+    - section: Корпуса малых языков России
       contents:
-      - text: Абазинский язык
+      - text: Абазинский
         href: http://lingconlab.ru/spoken_abaza/
-      - text: Адыгейский язык
+        content: 'Словоупотр.: 3 636'
+      - text: Адыгейский
         href: http://lingconlab.ru/spoken_adyghe/
-      - text: Башкирский язык
+        content: 'Словоупотр.: 9 128'
+      - text: Башкирский
         href: http://lingconlab.ru/spoken_bashkir/
-      - text: Ботлихский язык
+        content: 'Словоупотр.: 28 202'
+      - text: Ботлихский
         href: http://lingconlab.ru/botlikh/
+        content: 'Словоупотр.: 1 603'
       - text: Ицаринский даргинский
         href: http://lingconlab.ru/itsari_dargwa/
-      - text: Кабардино-черкесский язык
+        content: 'Словоупотр.: 2 535'
+      - text: Кабардино-черкесский
         href: http://lingconlab.ru/spoken_besleney/
+        content: 'Словоупотр.: 7 955'
       - text: Кадарский даргинский
         href: http://lingconlab.ru/kadar_dargwa/
-      - text: Литературный даргинский язык
+        content: 'Словоупотр.: 6 366'
+      - text: Литературный даргинский
         href: http://lingconlab.ru/standard_dargwa/
-      - text: Луговой марийский язык
+        content: 'Словоупотр.: 6 382 427'
+      - text: Луговой марийский
         href: http://lingconlab.ru/spoken_meadow_mari/
-      - text: Малокарачкинского говор чувашского языка
+        content: 'Словоупотр.: 11 647'
+      - text: Малокарачкинского говор чувашского
         href: http://lingconlab.ru/chuvash/
+        content: 'Словоупотр.: 6 405'
       - text: Муиринский даргинский
         href: http://lingconlab.ru/muira_dargwa/
+        content: 'Словоупотр.: 6 935'
       - text: Тантынский даргинский
         href: http://lingconlab.ru/tanti_dargwa/search
-      - text: Хакасский язык
+        content: 'Словоупотр.: 2 683'
+      - text: Хакасский
         href: http://lingconlab.ru/spoken_khakas/
-      - text: Цнальский диалект лезгинского языка
+        content: 'Словоупотр.: 57 633'
+      - text: Цнальский диалект лезгинского
         href: http://lingconlab.ru/tsnal_lezgi/
+        content: 'Словоупотр.: 5 113'
     - section: Словари
       contents:
       - text: Даргинские языки
         href: http://lingconlab.ru/dargwa_dict/
-      - text: Мегебский язык
+        content: 'Словоупотр.: 7 917'
+      - text: Мегебский даргинский
         href: http://lingconlab.ru/MehwebDict/
-      - text: Рутульский язык
+        content: 'Словоупотр.: 1 132'
+      - text: Рутульский
         href: https://linghub.ru/rutuldict/
-      - text: Тукитинский язык
+        content: 'Словоупотр.: 738'
+      - text: Тукитинский
         href: http://lingconlab.ru/TukitaDict/
-      - text: Хваршинский язык
+        content: 'Словоупотр.: 1 175'
+      - text: Хваршинский
         href: https://lingconlab.github.io/Khwarshi_dictionary/
+        content: 'Словоупотр.: 10 291'
     - section: Другие проекты
       contents:
       - text: DAG < APT
