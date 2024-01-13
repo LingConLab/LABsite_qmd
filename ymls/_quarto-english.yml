@@ -39,7 +39,7 @@ website:
       contents:
       - text: Don river dialects
         href: http://lingconlab.ru/don_rnd/
-        content: 'Tokens: 71 600'
+        content: 'Tokens: 69 098'
       - text: Keba dialect
         href: http://lingconlab.ru/keba/
         content: 'Tokens: 54 535'
