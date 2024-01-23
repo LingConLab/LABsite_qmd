@@ -152,7 +152,7 @@ website:
       - text: Khakas
         href: http://lingconlab.ru/spoken_khakas/
         content: 'Tokens: 57 633'
-      - text: Malokarachkin Chuvash
+      - text: Maloye Karachkino Chuvash
         href: http://lingconlab.ru/chuvash/
         content: 'Tokens: 6 405'
       - text: Meadow Mari
@@ -198,10 +198,10 @@ website:
         href: https://lingconlab.github.io/rutul_dialectology/
       - text: DAG < APT
         href: https://lingconlab.github.io/DAG-APT/
-      - text: DagSwadesh
-        href: http://lingconlab.ru/dagswadesh/
       - text: Daghestanian loans database
         href: http://lingconlab.ru/dagloans/
+      - text: DagSwadesh
+        href: http://lingconlab.ru/dagswadesh/
       - text: Parabible
         href: http://lingconlab.ru/parabible/
       - text: Prosody of Russian Dialects

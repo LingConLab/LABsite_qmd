@@ -1,6 +1,3 @@
-- text: Говор Средней Пёзы
-  href: http://lingconlab.ru/pyoza/
-  content: 'Словоупотр.: 79 566'
 - text: Говор верхней Пинеги и Выи
   href: http://lingconlab.ru/vaduga/
   content: 'Словоупотр.: 70 803'
@@ -31,6 +28,9 @@
 - text: Говор с. Церковное
   href: http://lingconlab.ru/tserkovnoe/
   content: 'Словоупотр.: 39 469'
+- text: Говор Средней Пёзы
+  href: http://lingconlab.ru/pyoza/
+  content: 'Словоупотр.: 79 566'
 - text: Говор сёл Свишни и Тростное
   href: http://lingconlab.ru/yelets/
   content: 'Словоупотр.: 24 414'

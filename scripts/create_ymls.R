@@ -13,7 +13,7 @@ map(list.files("ymls", pattern = ".yml", full.names = TRUE), file.remove)
 df |> 
   filter(subtype == "dialectal") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(card_title) ->
+  arrange(tolower(card_title)) ->
   filtered
 
 map(seq_along(filtered$card_title), function(i){
@@ -26,7 +26,7 @@ map(seq_along(filtered$card_title), function(i){
   use_yml_file("ymls/dial.yml")
 
 filtered |> 
-  arrange(card_title_ru) ->
+  arrange(tolower(card_title_ru)) ->
   filtered
 
 map(seq_along(filtered$card_title_ru), function(i){
@@ -43,7 +43,7 @@ map(seq_along(filtered$card_title_ru), function(i){
 df |> 
   filter(subtype == "bilingual") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(card_title) ->
+  arrange(tolower(card_title)) ->
   filtered
 
 map(seq_along(filtered$card_title), function(i){
@@ -56,7 +56,7 @@ map(seq_along(filtered$card_title), function(i){
   use_yml_file("ymls/l2.yml")
 
 filtered |> 
-  arrange(card_title_ru) ->
+  arrange(tolower(card_title_ru)) ->
   filtered
 
 map(seq_along(filtered$card_title_ru), function(i){
@@ -73,7 +73,7 @@ map(seq_along(filtered$card_title_ru), function(i){
 df |> 
   filter(subtype == "minority") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(card_title) ->
+  arrange(tolower(card_title)) ->
   filtered
 
 map(seq_along(filtered$card_title), function(i){
@@ -86,7 +86,7 @@ map(seq_along(filtered$card_title), function(i){
   use_yml_file("ymls/minority.yml")
 
 filtered |> 
-  arrange(card_title_ru) ->
+  arrange(tolower(card_title_ru)) ->
   filtered
 
 map(seq_along(filtered$card_title_ru), function(i){
@@ -103,7 +103,7 @@ map(seq_along(filtered$card_title_ru), function(i){
 df |> 
   filter(subtype == "dictionary") |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(card_title) ->
+  arrange(tolower(card_title)) ->
   filtered
 
 map(seq_along(filtered$card_title), function(i){
@@ -116,7 +116,7 @@ map(seq_along(filtered$card_title), function(i){
   use_yml_file("ymls/dicts.yml")
 
 filtered |> 
-  arrange(card_title_ru) ->
+  arrange(tolower(card_title_ru)) ->
   filtered
 
 map(seq_along(filtered$card_title_ru), function(i){
@@ -133,7 +133,7 @@ map(seq_along(filtered$card_title_ru), function(i){
 df |> 
   filter(is.na(subtype)) |> 
   distinct(name, name_ru, card_title, card_title_ru, link, n_tokens) |> 
-  arrange(name) ->
+  arrange(tolower(card_title)) ->
   filtered
 
 map(seq_along(filtered$card_title), function(i){
@@ -144,7 +144,7 @@ map(seq_along(filtered$card_title), function(i){
   use_yml_file("ymls/other.yml")
 
 filtered |> 
-  arrange(card_title_ru) ->
+  arrange(tolower(card_title_ru)) ->
   filtered
 
 map(seq_along(filtered$card_title_ru), function(i){
