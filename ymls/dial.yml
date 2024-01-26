@@ -1,6 +1,9 @@
 - text: Don river dialects
   href: http://lingconlab.ru/don_rnd/
   content: 'Tokens: 69 098'
+- text: Ilmen Lake district dialects
+  href: http://lingconlab.ru/novgorod/
+  content: 'Tokens: 134 207'
 - text: Keba dialect
   href: http://lingconlab.ru/keba/
   content: 'Tokens: 54 535'
@@ -46,7 +49,7 @@
 - text: Spiridonova Buda dialect
   href: http://lingconlab.ru/SpiridonovaBuda/
   content: 'Tokens: 70 565'
-- text: Svishni and Trostnoe Corpus
+- text: Svishni and Trostnoe dialects
   href: http://lingconlab.ru/yelets/
   content: 'Tokens: 24 414'
 - text: Tserkovnoe dialect
