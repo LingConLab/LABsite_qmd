@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.533">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -388,12 +388,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="http://lingconlab.ru/chuvash/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Малокарачкинского говор чувашского</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="http://lingconlab.ru/muira_dargwa/" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Муиринский даргинский</span></a>
   </div>
@@ -541,7 +535,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Одна из задач <a href="https://ilcl.hse.ru/">Международной лаборатории языковой конвергенции</a> — создание языковых ресурсов. В сотрудничестве с лингвистами из других институтов мы собираем и обрабатываем данные для <a href="resources.html#dictionaries-ru">словарей</a>, разрабатываем <a href="resources.html#spoken-corpora-ru">устные корпуса</a> билингвального и диалектного русского, а также других малых языков России. Помимо этого, мы работаем над <a href="resources.html#other-ru">проектами</a>, посвященными языковым контактам и распределению различных грамматических явление на территории Дагестана, самой многоязычной республике России.</p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display page-columns page-full">
-<div class="img-fluid quarto-figure quarto-figure-center page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p class="page-columns page-full"><img src="../images/mukhin_archo.jpg" class="img-fluid figure-img column-screen-right" width="772"></p>
 <figcaption>с. Арчо, Ахвахский район, Дагестан, Тимофей Мухин</figcaption>
@@ -575,7 +569,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display page-columns page-full">
-<div class="img-fluid quarto-figure quarto-figure-center page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p class="page-columns page-full"><img src="../images/daniel_pushkino_1.jpg" class="img-fluid figure-img column-screen-right" width="2182"></p>
 <figcaption>д. Пушкино-Михалёвская, Вельский район, Архангельская область, Михаил Даниэль</figcaption>
@@ -749,7 +743,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
