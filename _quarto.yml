@@ -79,6 +79,9 @@ website:
       - text: Opochetsky dialects
         href: http://lingconlab.ru/opochka/
         content: 'Tokens: 68 741'
+      - text: Popovka Corpus
+        href: http://lingconlab.ru/popovka/
+        content: 'Tokens: 36 617'
       - text: Rogovatka dialect
         href: http://lingconlab.ru/rogovatka/
         content: 'Tokens: 100 047'
