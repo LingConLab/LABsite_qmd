@@ -38,160 +38,160 @@ website:
     - section: Dialect corpora
       contents:
       - text: Don river dialects
-        href: http://lingconlab.ru/don_rnd/
+        href: https://lingconlab.ru/don_rnd/
         content: 'Tokens: 69 098'
       - text: Ilmen Lake district dialects
-        href: http://lingconlab.ru/novgorod/
+        href: https://lingconlab.ru/novgorod/
         content: 'Tokens: 134 207'
       - text: Keba dialect
-        href: http://lingconlab.ru/keba/
+        href: https://lingconlab.ru/keba/
         content: 'Tokens: 54 535'
       - text: Khislavichi dialect
-        href: http://lingconlab.ru/khislavichi/
+        href: https://lingconlab.ru/khislavichi/
         content: 'Tokens: 260 793'
       - text: Lukh and Teza river basins dialects
-        href: http://lingconlab.ru/lukhteza/
+        href: https://lingconlab.ru/lukhteza/
         content: 'Tokens: 146 350'
       - text: Luzhnikovo dialect
-        href: http://lingconlab.ru/luzhnikovo/
+        href: https://lingconlab.ru/luzhnikovo/
         content: 'Tokens: 68 666'
       - text: Malinino dialect
-        href: http://lingconlab.ru/malinino/
+        href: https://lingconlab.ru/malinino/
         content: 'Tokens: 138 943'
       - text: Manturovo dialect
-        href: http://lingconlab.ru/manturovo/
+        href: https://lingconlab.ru/manturovo/
         content: 'Tokens: 113 837'
       - text: Middle Northern Dvina dialects
-        href: http://lingconlab.ru/dvina/
+        href: https://lingconlab.ru/dvina/
         content: 'Tokens: 68 010'
       - text: Middle Pinega dialects
-        href: http://lingconlab.ru/pinega/
+        href: https://lingconlab.ru/pinega/
         content: 'Tokens: 43 270'
       - text: Middle Pyoza dialect
-        href: http://lingconlab.ru/pyoza/
+        href: https://lingconlab.ru/pyoza/
         content: 'Tokens: 79 566'
       - text: Mikhaylov Corpus
-        href: http://lingconlab.ru/mikhaylov/
+        href: https://lingconlab.ru/mikhaylov/
         content: 'Tokens: 47 579'
       - text: Nekhochi dialect
-        href: http://lingconlab.ru/nekhochi/
+        href: https://lingconlab.ru/nekhochi/
         content: 'Tokens: 88 965'
       - text: Opochetsky dialects
-        href: http://lingconlab.ru/opochka/
+        href: https://lingconlab.ru/opochka/
         content: 'Tokens: 68 741'
       - text: Popovka Corpus
-        href: http://lingconlab.ru/popovka/
+        href: https://lingconlab.ru/popovka/
         content: 'Tokens: 36 617'
       - text: Rogovatka dialect
-        href: http://lingconlab.ru/rogovatka/
+        href: https://lingconlab.ru/rogovatka/
         content: 'Tokens: 100 047'
       - text: Shetnevo and Makeevo dialect
-        href: http://lingconlab.ru/shetnevo/
+        href: https://lingconlab.ru/shetnevo/
         content: 'Tokens: 95 335'
       - text: Spiridonova Buda dialect
-        href: http://lingconlab.ru/SpiridonovaBuda/
+        href: https://lingconlab.ru/SpiridonovaBuda/
         content: 'Tokens: 70 565'
       - text: Svishni and Trostnoe dialects
-        href: http://lingconlab.ru/yelets/
+        href: https://lingconlab.ru/yelets/
         content: 'Tokens: 24 414'
       - text: Tserkovnoe dialect
-        href: http://lingconlab.ru/tserkovnoe/
+        href: https://lingconlab.ru/tserkovnoe/
         content: 'Tokens: 39 469'
       - text: Upper Pinega and Vyya river basins dialect
-        href: http://lingconlab.ru/vaduga/
+        href: https://lingconlab.ru/vaduga/
         content: 'Tokens: 70 803'
       - text: Ustja River Basin dialects
         href: http://www.parasolcorpus.org/Pushkino/
         content: 'Tokens: 959 782'
       - text: Veegora dialect
-        href: http://lingconlab.ru/veegora/
+        href: https://lingconlab.ru/veegora/
         content: 'Tokens: 91 514'
       - text: Zvenigorod dialect
-        href: http://lingconlab.ru/zvenigorod/
+        href: https://lingconlab.ru/zvenigorod/
         content: 'Tokens: 68 324'
     - section: Corpora of bilingual Russian
       contents:
       - text: Bashkortostan Russian
-        href: http://lingconlab.ru/BashkirRus/
+        href: https://lingconlab.ru/BashkirRus/
         content: 'Tokens: 93 127'
       - text: Beserman Russian
-        href: http://lingconlab.ru/BesermanRus/
+        href: https://lingconlab.ru/BesermanRus/
         content: 'Tokens: 97 216'
       - text: Chuvash Russian
-        href: http://lingconlab.ru/ChuvashRus/
+        href: https://lingconlab.ru/ChuvashRus/
         content: 'Tokens: 46 307'
       - text: Daghestanian Russian
         href: http://parasolcorpus.org/dagrus/
         content: 'Tokens: 376 717'
       - text: Karelian Russian
-        href: http://lingconlab.ru/karelrus/
+        href: https://lingconlab.ru/karelrus/
         content: 'Tokens: 578 646'
       - text: Mari Russian
-        href: http://lingconlab.ru/MariRus/
+        href: https://lingconlab.ru/MariRus/
         content: 'Tokens: 69 109'
       - text: Romani Russian
-        href: http://lingconlab.ru/romarus/
+        href: https://lingconlab.ru/romarus/
         content: 'Tokens: 41 767'
       - text: Yakut Russian
-        href: http://lingconlab.ru/cs_yakut/
+        href: https://lingconlab.ru/cs_yakut/
         content: 'Tokens: 15 139'
     - section: Corpora of minority languages of Russia
       contents:
       - text: Abaza
-        href: http://lingconlab.ru/spoken_abaza/
+        href: https://lingconlab.ru/spoken_abaza/
         content: 'Tokens: 3 636'
       - text: Bashkir
-        href: http://lingconlab.ru/spoken_bashkir/
+        href: https://lingconlab.ru/spoken_bashkir/
         content: 'Tokens: 28 202'
       - text: Besleney Kabardian
-        href: http://lingconlab.ru/spoken_besleney/
+        href: https://lingconlab.ru/spoken_besleney/
         content: 'Tokens: 7 955'
       - text: Botlikh
-        href: http://lingconlab.ru/botlikh/
+        href: https://lingconlab.ru/botlikh/
         content: 'Tokens: 1 603'
       - text: Itsari Dargwa
-        href: http://lingconlab.ru/itsari_dargwa/
+        href: https://lingconlab.ru/itsari_dargwa/
         content: 'Tokens: 2 535'
       - text: Kadar Dargwa
-        href: http://lingconlab.ru/kadar_dargwa/
+        href: https://lingconlab.ru/kadar_dargwa/
         content: 'Tokens: 6 366'
       - text: Khakas
-        href: http://lingconlab.ru/spoken_khakas/
+        href: https://lingconlab.ru/spoken_khakas/
         content: 'Tokens: 57 633'
       - text: Meadow Mari
-        href: http://lingconlab.ru/spoken_meadow_mari/
+        href: https://lingconlab.ru/spoken_meadow_mari/
         content: 'Tokens: 11 647'
       - text: Muira Dargwa
-        href: http://lingconlab.ru/muira_dargwa/
+        href: https://lingconlab.ru/muira_dargwa/
         content: 'Tokens: 6 935'
       - text: Standard Dargwa
-        href: http://lingconlab.ru/standard_dargwa/
+        href: https://lingconlab.ru/standard_dargwa/
         content: 'Tokens: 6 382 427'
       - text: Tanti Dargwa
-        href: http://lingconlab.ru/tanti_dargwa/search
+        href: https://lingconlab.ru/tanti_dargwa/search
         content: 'Tokens: 2 683'
       - text: Tsnal Lezgi
-        href: http://lingconlab.ru/tsnal_lezgi/
+        href: https://lingconlab.ru/tsnal_lezgi/
         content: 'Tokens: 5 113'
       - text: West Circassian
-        href: http://lingconlab.ru/spoken_adyghe/
+        href: https://lingconlab.ru/spoken_adyghe/
         content: 'Tokens: 9 128'
     - section: Dictionaries
       contents:
       - text: Dargwa varieties
-        href: http://lingconlab.ru/dargwa_dict/
+        href: https://lingconlab.ru/dargwa_dict/
         content: 'Tokens: 7 917'
       - text: Khwarshi
         href: https://lingconlab.github.io/Khwarshi_dictionary/
         content: 'Tokens: 10 291'
       - text: Mehweb Dargwa
-        href: http://lingconlab.ru/MehwebDict/
+        href: https://lingconlab.ru/MehwebDict/
         content: 'Tokens: 1 132'
       - text: Rutul
         href: https://linghub.ru/rutuldict/
         content: 'Tokens: 738'
       - text: Tukita
-        href: http://lingconlab.ru/TukitaDict/
+        href: https://lingconlab.ru/TukitaDict/
         content: 'Tokens: 1 175'
     - section: Other Resources
       contents:
@@ -202,15 +202,15 @@ website:
       - text: DAG < APT
         href: https://lingconlab.github.io/DAG-APT/
       - text: Daghestanian loans database
-        href: http://lingconlab.ru/dagloans/
+        href: https://lingconlab.ru/dagloans/
       - text: DagSwadesh
-        href: http://lingconlab.ru/dagswadesh/
+        href: https://lingconlab.ru/dagswadesh/
       - text: Parabible
-        href: http://lingconlab.ru/parabible/
+        href: https://lingconlab.ru/parabible/
       - text: Prosody of Russian Dialects
         href: https://lingconlab.github.io/PRuD/
       - text: The Andic Dictionaries Examples Database
         href: https://lingconlab.github.io/andic_dictionary_examples_database/
       - text: Typological Atlas of the Languages of Daghestan
-        href: http://lingconlab.ru/dagatlas/
+        href: https://lingconlab.ru/dagatlas/
 
