@@ -13,6 +13,9 @@
 - text: Karelian Russian
   href: https://lingconlab.ru/karelrus/
   content: 'Tokens: 578 646'
+- text: Khanty Russian Corpus
+  href: https://lingconlab.ru/khantyrus/
+  content: 'Tokens: 40 225'
 - text: Mari Russian
   href: https://lingconlab.ru/MariRus/
   content: 'Tokens: 69 109'
