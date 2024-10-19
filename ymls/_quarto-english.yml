@@ -187,6 +187,9 @@ website:
       - text: Dictionary of Kina Rutul
         href: https://lingconlab.github.io/kina-rutul-dict/
         content: 'Tokens: 738'
+      - text: Dictionary of Zilo Andi
+        href: https://lingconlab.github.io/zilo_dictionary/
+        content: 'Tokens: 738'
       - text: Khwarshi
         href: https://lingconlab.github.io/Khwarshi_dictionary/
         content: 'Tokens: 10 291'
