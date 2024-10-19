@@ -126,7 +126,7 @@ website:
       - text: Karelian Russian
         href: https://lingconlab.ru/karelrus/
         content: 'Tokens: 578 646'
-      - text: Khanty Russian Corpus
+      - text: Khanty Russian
         href: https://lingconlab.ru/khantyrus/
         content: 'Tokens: 40 225'
       - text: Mari Russian
