@@ -19,6 +19,9 @@
 - text: Говор с. Малинино
   href: https://lingconlab.ru/malinino/
   content: 'Словоупотр.: 138 943'
+- text: Говор с. Поповка
+  href: https://lingconlab.ru/popovka/
+  content: 'Словоупотр.: 36 617'
 - text: Говор с. Роговатка
   href: https://lingconlab.ru/rogovatka/
   content: 'Словоупотр.: 100 047'
@@ -52,9 +55,6 @@
 - text: Корпус Михайлова
   href: https://lingconlab.ru/mikhaylov/
   content: 'Словоупотр.: 47 579'
-- text: Корпус Поповки
-  href: https://lingconlab.ru/popovka/
-  content: 'Словоупотр.: 36 617'
 - text: Лужниковский говор
   href: https://lingconlab.ru/luzhnikovo/
   content: 'Словоупотр.: 68 666'

@@ -79,7 +79,7 @@ website:
       - text: Opochetsky dialects
         href: https://lingconlab.ru/opochka/
         content: 'Tokens: 68 741'
-      - text: Popovka Corpus
+      - text: Popovka dialect
         href: https://lingconlab.ru/popovka/
         content: 'Tokens: 36 617'
       - text: Rogovatka dialect
@@ -184,21 +184,21 @@ website:
       - text: Dargwa varieties
         href: https://lingconlab.ru/dargwa_dict/
         content: 'Tokens: 7 917'
-      - text: Dictionary of Kina Rutul
-        href: https://lingconlab.github.io/kina-rutul-dict/
-        content: 'Tokens: 738'
-      - text: Dictionary of Zilo Andi
-        href: https://lingconlab.github.io/zilo_dictionary/
-        content: 'Tokens: 738'
       - text: Khwarshi
         href: https://lingconlab.github.io/Khwarshi_dictionary/
         content: 'Tokens: 10 291'
+      - text: Kina Rutul
+        href: https://lingconlab.github.io/kina-rutul-dict/
+        content: 'Tokens: 738'
       - text: Mehweb Dargwa
         href: https://lingconlab.ru/MehwebDict/
         content: 'Tokens: 1 132'
       - text: Tukita
         href: https://lingconlab.ru/TukitaDict/
         content: 'Tokens: 1 175'
+      - text: Zilo Andi
+        href: https://lingconlab.github.io/zilo_dictionary/
+        content: 'Tokens: 738'
     - section: Other Resources
       contents:
       - text: Atlas of Multilingualism in Dagestan
