@@ -56,6 +56,9 @@ website:
       - text: Говор с. Кеба
         href: https://lingconlab.ru/keba/
         content: 'Словоупотр.: 54 535'
+      - text: Говор с. Колодежное
+        href: https://lingconlab.ru/kolodezhnoe/
+        content: 'Словоупотр.: 57 959'
       - text: Говор с. Малинино
         href: https://lingconlab.ru/malinino/
         content: 'Словоупотр.: 138 943'
@@ -190,7 +193,7 @@ website:
         content: 'Словоупотр.: 1 365'
       - text: Кининский диалект рутульского языка
         href: https://lingconlab.github.io/kina-rutul-dict/
-        content: 'Словоупотр.: 738'
+        content: 'Словоупотр.: 1 253'
       - text: Мегебский даргинский
         href: https://lingconlab.ru/MehwebDict/
         content: 'Словоупотр.: 1 132'

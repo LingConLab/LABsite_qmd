@@ -49,6 +49,9 @@ website:
       - text: Khislavichi dialect
         href: https://lingconlab.ru/khislavichi/
         content: 'Tokens: 260 793'
+      - text: Kolodezhnoe dialect
+        href: https://lingconlab.ru/kolodezhnoe/
+        content: 'Tokens: 57 959'
       - text: Lukh and Teza river basins dialects
         href: https://lingconlab.ru/lukhteza/
         content: 'Tokens: 146 350'
@@ -189,7 +192,7 @@ website:
         content: 'Tokens: 10 291'
       - text: Kina Rutul
         href: https://lingconlab.github.io/kina-rutul-dict/
-        content: 'Tokens: 738'
+        content: 'Tokens: 1 253'
       - text: Mehweb Dargwa
         href: https://lingconlab.ru/MehwebDict/
         content: 'Tokens: 1 132'
