@@ -28,6 +28,7 @@ library(tidyverse)
 library(lingtypology)
 
 read_tsv("data.tsv") |> 
+  filter(is.na(ignore)) |> 
   mutate(subtype = case_when(subtype == 'bilingual' ~ 'bilingual Russian corpus',
                              subtype == 'dialectal' ~ 'Russian dialect corpus',
                              subtype == 'minority' ~ 'corpus of minority languages',
