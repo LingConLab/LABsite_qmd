@@ -46,6 +46,9 @@
 - text: Popovka dialect
   href: https://lingconlab.ru/popovka/
   content: 'Tokens: 36 617'
+- text: Pyatiusovo Corpus
+  href: https://lingconlab.ru/pyatiusovo/
+  content: 'Tokens: 96 537'
 - text: Rogovatka dialect
   href: https://lingconlab.ru/rogovatka/
   content: 'Tokens: 100 047'

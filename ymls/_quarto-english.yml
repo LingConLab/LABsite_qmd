@@ -85,6 +85,9 @@ website:
       - text: Popovka dialect
         href: https://lingconlab.ru/popovka/
         content: 'Tokens: 36 617'
+      - text: Pyatiusovo Corpus
+        href: https://lingconlab.ru/pyatiusovo/
+        content: 'Tokens: 96 537'
       - text: Rogovatka dialect
         href: https://lingconlab.ru/rogovatka/
         content: 'Tokens: 100 047'
@@ -123,6 +126,9 @@ website:
       - text: Chuvash Russian
         href: https://lingconlab.ru/ChuvashRus/
         content: 'Tokens: 46 307'
+      - text: Corpus of Mansi Russian
+        href: https://lingconlab.ru/MansiRus/
+        content: 'Tokens: 46 979'
       - text: Daghestanian Russian
         href: http://parasolcorpus.org/dagrus/
         content: 'Tokens: 376 717'

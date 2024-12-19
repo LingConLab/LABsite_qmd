@@ -7,6 +7,9 @@
 - text: Chuvash Russian
   href: https://lingconlab.ru/ChuvashRus/
   content: 'Tokens: 46 307'
+- text: Corpus of Mansi Russian
+  href: https://lingconlab.ru/MansiRus/
+  content: 'Tokens: 46 979'
 - text: Daghestanian Russian
   href: http://parasolcorpus.org/dagrus/
   content: 'Tokens: 376 717'

@@ -50,6 +50,9 @@ website:
       - text: Говор д. Нехочи
         href: https://lingconlab.ru/nekhochi/
         content: 'Словоупотр.: 88 965'
+      - text: Говор д. Пятиусово
+        href: https://lingconlab.ru/pyatiusovo/
+        content: 'Словоупотр.: 96 537'
       - text: Говор д. Шетнево и Макеево
         href: https://lingconlab.ru/shetnevo/
         content: 'Словоупотр.: 95 335'
@@ -127,6 +130,9 @@ website:
       - text: Карельский русский
         href: https://lingconlab.ru/karelrus/
         content: 'Словоупотр.: 578 646'
+      - text: Корпус мансийского русского
+        href: https://lingconlab.ru/MansiRus/
+        content: 'Словоупотр.: 46 979'
       - text: Марийский русский
         href: https://lingconlab.ru/MariRus/
         content: 'Словоупотр.: 69 109'
