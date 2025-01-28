@@ -176,6 +176,9 @@ website:
       - text: Muira Dargwa
         href: https://lingconlab.ru/muira_dargwa/
         content: 'Tokens: 6 935'
+      - text: Nanai
+        href: https://lingconlab.ru/nanai/
+        content: 'Tokens: 4 128'
       - text: Standard Dargwa
         href: https://lingconlab.ru/standard_dargwa/
         content: 'Tokens: 6 382 427'
