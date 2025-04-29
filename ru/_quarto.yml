@@ -118,6 +118,9 @@ website:
         content: 'Словоупотр.: 260 793'
     - section: Корпуса билингвального русского
       contents:
+      - text: Ассирийский русский
+        href: https://lingconlab.ru/AssyrRus/#!/
+        content: 'Словоупотр.: 55 599'
       - text: Башкирский русский
         href: https://lingconlab.ru/BashkirRus/
         content: 'Словоупотр.: 93 127'

@@ -117,6 +117,9 @@ website:
         content: 'Tokens: 68 324'
     - section: Corpora of bilingual Russian
       contents:
+      - text: Assyrian Russian
+        href: https://lingconlab.ru/AssyrRus/#!/
+        content: 'Tokens: 55 599'
       - text: Bashkortostan Russian
         href: https://lingconlab.ru/BashkirRus/
         content: 'Tokens: 93 127'
