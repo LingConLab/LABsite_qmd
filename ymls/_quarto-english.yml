@@ -173,6 +173,9 @@ website:
       - text: Khakas
         href: https://lingconlab.ru/spoken_khakas/
         content: 'Tokens: 57 633'
+      - text: Maloye Karachkino Chuvash
+        href: https://lingconlab.ru/chuvash/
+        content: 'Tokens: 6 405'
       - text: Meadow Mari
         href: https://lingconlab.ru/spoken_meadow_mari/
         content: 'Tokens: 11 647'
