@@ -100,6 +100,9 @@ website:
       - text: Svishni and Trostnoe dialects
         href: https://lingconlab.ru/yelets/
         content: 'Tokens: 24 414'
+      - text: Svishni and Trostnoe dialects
+        href: https://lingconlab.ru/yelets/
+        content: 'Tokens: 24 414'
       - text: Tserkovnoe dialect
         href: https://lingconlab.ru/tserkovnoe/
         content: 'Tokens: 39 469'
@@ -233,6 +236,10 @@ website:
         href: https://lingconlab.ru/parabible/
       - text: Prosody of Russian Dialects
         href: https://lingconlab.github.io/PRuD/
+      - text: PyCauTile
+        href: https://github.com/LingConLab/PyCaucTile/
+      - text: RcaucTile
+        href: https://lingconlab.github.io/RCaucTile/
       - text: The Andic Dictionaries Examples Database
         href: https://lingconlab.github.io/andic_dictionary_examples_database/
       - text: Typological Atlas of the Languages of Daghestan

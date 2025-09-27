@@ -83,6 +83,9 @@ website:
       - text: Говор сёл Свишни и Тростное
         href: https://lingconlab.ru/yelets/
         content: 'Словоупотр.: 24 414'
+      - text: Говор сёл Свишни и Тростное
+        href: https://lingconlab.ru/yelets/
+        content: 'Словоупотр.: 24 414'
       - text: Говоры  среднего течения Пинеги
         href: https://lingconlab.ru/pinega/
         content: 'Словоупотр.: 43 270'
@@ -226,6 +229,10 @@ website:
         href: https://lingconlab.ru/dagswadesh/
       - text: Parabible
         href: https://lingconlab.ru/parabible/
+      - text: PyCauTile
+        href: https://github.com/LingConLab/PyCaucTile/
+      - text: RcaucTile
+        href: https://lingconlab.github.io/RCaucTile/
       - text: Атлас диалектов рутульского языка
         href: https://lingconlab.github.io/rutul_dialectology/
       - text: Атлас многоязычия в Дагестане
