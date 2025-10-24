@@ -170,6 +170,9 @@ website:
       - text: Itsari Dargwa
         href: https://lingconlab.ru/itsari_dargwa/
         content: 'Tokens: 2 535'
+      - text: Kabardian corpus
+        href: https://lingconlab.ru/kabardian
+        content: 'Tokens: 4 950 652'
       - text: Kadar Dargwa
         href: https://lingconlab.ru/kadar_dargwa/
         content: 'Tokens: 6 366'
