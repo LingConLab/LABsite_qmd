@@ -169,3 +169,4 @@ The Corpus of Russian spoken by Assyrians	Устный корпус ассири
 RcaucTile	RcaucTile	RcaucTile	RcaucTile	https://lingconlab.github.io/RCaucTile/	package	пакет										
 PyCauTile	PyCauTile	PyCauTile	PyCauTile	https://github.com/LingConLab/PyCaucTile/	package	пакет										
 West Circassian Corpus	Адыгейский корпус	West Circassian	Адыгейский	https://lingconlab.ru/adyghe/ 	corpus	корпус	minority	малых языков			44	39.33	West Circassian	10971491	tsacorpus	
+Corpus of the Pomor Russian dialect spoken in Purnema	Корпус поморского говора села Пурнема	Pomor dialect	Поморский говор	https://lingconlab.ru/purnema/#!/	corpus	корпус	dialectal	диалектный	Purnema	Пурнема	64.38139	37.4325	Russian	86369	spoco	

@@ -82,6 +82,9 @@ website:
       - text: Opochetsky dialects
         href: https://lingconlab.ru/opochka/
         content: 'Tokens: 68 741'
+      - text: Pomor dialect
+        href: https://lingconlab.ru/purnema/#!/
+        content: 'Tokens: 86 369'
       - text: Popovka dialect
         href: https://lingconlab.ru/popovka/
         content: 'Tokens: 36 617'
