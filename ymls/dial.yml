@@ -45,7 +45,7 @@
   content: 'Tokens: 68 741'
 - text: Pomor dialect
   href: https://lingconlab.ru/purnema/#!/
-  content: 'Tokens: 86 369'
+  content: 'Tokens: 133 334'
 - text: Popovka dialect
   href: https://lingconlab.ru/popovka/
   content: 'Tokens: 36 617'
@@ -61,9 +61,6 @@
 - text: Spiridonova Buda dialect
   href: https://lingconlab.ru/SpiridonovaBuda/
   content: 'Tokens: 70 565'
-- text: Svishni and Trostnoe dialects
-  href: https://lingconlab.ru/yelets/
-  content: 'Tokens: 24 414'
 - text: Svishni and Trostnoe dialects
   href: https://lingconlab.ru/yelets/
   content: 'Tokens: 24 414'

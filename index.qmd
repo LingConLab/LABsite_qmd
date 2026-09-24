@@ -59,7 +59,8 @@ map.feature(fe$lang,
 #| column: screen-right
 
 fe |> 
-  filter(lat<=44,
+  filter(lat <= 43,
+         lon >= 45,
          !is.na(subtype)) |> 
   mutate(subtype = factor(subtype, levels = c("bilingual Russian corpus",
                                               "corpus of minority languages",

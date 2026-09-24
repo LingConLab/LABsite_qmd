@@ -59,7 +59,8 @@ map.feature(fe$lang,
 #| column: screen-right
 
 fe |> 
-  filter(lat<=44,
+  filter(lat <= 43,
+         lon >= 45,
          !is.na(subtype_ru)) |> 
   mutate(subtype_ru = factor(subtype_ru, levels = c("корпус билингвального русского",
                                                  "корпус малого языка России",

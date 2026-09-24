@@ -6,3 +6,5 @@
 *.~lock.*
 *.tar
 /.quarto/
+
+**/*.quarto_ipynb

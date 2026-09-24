@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>resources – Ресурсы Международной лаборатории языковой конвергенции</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -34,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-eda71e66ce6375d83ec45af641691764.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c0df51478c157557eef0bd8d0397ba55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Поиск не дал результатов",
@@ -198,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -211,7 +217,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -369,12 +375,6 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="https://lingconlab.ru/pyoza/" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Говор Средней Пёзы</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://lingconlab.ru/yelets/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Говор сёл Свишни и Тростное</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -790,7 +790,7 @@ window.Quarto = {
 <p>Важной особенностью устных корпусов Лаборатории является наличие дополнительных социолингвистических метаданных о говорящих, которые включают информацию об их возрасте, поле, образовании, месте жительства и владении другими языками.</p>
 <p>Устные корпуса разрабатываются в сотрудничестве с исследователями из других университетов и институтов. Мы открыты сотрудничеству для разработки новых языковых ресурсов, аналогичных уже созданным.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Диалектные корпуса</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Билингвальный русский</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Корпуса малых языков</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Диалектные корпуса</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Билингвальный русский</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Корпуса малых языков</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div id="listing-dial_ru" class="quarto-listing quarto-listing-container-custom">
@@ -949,16 +949,6 @@ window.Quarto = {
 
   <div class="g-col-1" data-index="15">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
-    <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Говор сёл Свишни и Тростное</h3>
-     
-      <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 24&nbsp;414</p>
-    
-    <button type="button" onclick="window.open('https://lingconlab.ru/yelets/', '_blank');" style="position: absolute; bottom: 0.3em; left: 0; right: 0; margin: 0 auto; background-color: #2c3e50; border: none; color:  #ccd1d5;">Перейти</button>
-    </div>
-  </div>
-
-  <div class="g-col-1" data-index="16">
-    <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Говоры  среднего течения Пинеги</h3>
      
       <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 43&nbsp;270</p>
@@ -967,7 +957,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="17">
+  <div class="g-col-1" data-index="16">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Говоры Ильменского Поозерья</h3>
      
@@ -977,7 +967,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="18">
+  <div class="g-col-1" data-index="17">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Говоры низовья рек Лух и Теза</h3>
      
@@ -987,7 +977,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="19">
+  <div class="g-col-1" data-index="18">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Говоры среднего течения Северной Двины</h3>
      
@@ -997,7 +987,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="20">
+  <div class="g-col-1" data-index="19">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Донские говоры</h3>
      
@@ -1007,7 +997,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="21">
+  <div class="g-col-1" data-index="20">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Корпус Михайлова</h3>
      
@@ -1017,7 +1007,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="22">
+  <div class="g-col-1" data-index="21">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Лужниковский говор</h3>
      
@@ -1027,7 +1017,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="23">
+  <div class="g-col-1" data-index="22">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Мантуровский говор</h3>
      
@@ -1037,7 +1027,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="24">
+  <div class="g-col-1" data-index="23">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Опочецкие говоры</h3>
      
@@ -1047,17 +1037,17 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="25">
+  <div class="g-col-1" data-index="24">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Поморский говор</h3>
      
-      <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 86&nbsp;369</p>
+      <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 133&nbsp;334</p>
     
     <button type="button" onclick="window.open('https://lingconlab.ru/purnema/#!/', '_blank');" style="position: absolute; bottom: 0.3em; left: 0; right: 0; margin: 0 auto; background-color: #2c3e50; border: none; color:  #ccd1d5;">Перейти</button>
     </div>
   </div>
 
-  <div class="g-col-1" data-index="26">
+  <div class="g-col-1" data-index="25">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Устьянские говоры</h3>
      
@@ -1067,7 +1057,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="g-col-1" data-index="27">
+  <div class="g-col-1" data-index="26">
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Хиславичский говор</h3>
      
@@ -1322,7 +1312,7 @@ window.Quarto = {
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Малокарачкинского говор чувашского</h3>
      
-      <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 6&nbsp;405</p>
+      <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 13&nbsp;738</p>
     
     <button type="button" onclick="window.open('https://lingconlab.ru/chuvash/', '_blank');" style="position: absolute; bottom: 0.3em; left: 0; right: 0; margin: 0 auto; background-color: #2c3e50; border: none; color:  #ccd1d5;">Перейти</button>
     </div>
@@ -1342,7 +1332,7 @@ window.Quarto = {
     <div class="quarto-grid-item card h-100 card-left" style="padding-top: 0.5em; padding-left: 0.2em; background-color: #7b8a8b; color: #ffffff;">
     <h3 class="no-anchor card-title listing-title" style="padding-bottom: 3.5em;">Нанайский</h3>
      
-      <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 4&nbsp;128</p>
+      <p class="card-content listing-content" style="padding-bottom: 1em; position: absolute; bottom: 0;">Словоупотр.: 13&nbsp;339</p>
     
     <button type="button" onclick="window.open('https://lingconlab.ru/nanai/', '_blank');" style="position: absolute; bottom: 0.3em; left: 0; right: 0; margin: 0 auto; background-color: #2c3e50; border: none; color:  #ccd1d5;">Перейти</button>
     </div>
@@ -1663,13 +1653,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -84,7 +84,7 @@ website:
         content: 'Tokens: 68 741'
       - text: Pomor dialect
         href: https://lingconlab.ru/purnema/#!/
-        content: 'Tokens: 86 369'
+        content: 'Tokens: 133 334'
       - text: Popovka dialect
         href: https://lingconlab.ru/popovka/
         content: 'Tokens: 36 617'
@@ -100,9 +100,6 @@ website:
       - text: Spiridonova Buda dialect
         href: https://lingconlab.ru/SpiridonovaBuda/
         content: 'Tokens: 70 565'
-      - text: Svishni and Trostnoe dialects
-        href: https://lingconlab.ru/yelets/
-        content: 'Tokens: 24 414'
       - text: Svishni and Trostnoe dialects
         href: https://lingconlab.ru/yelets/
         content: 'Tokens: 24 414'
@@ -184,7 +181,7 @@ website:
         content: 'Tokens: 57 633'
       - text: Maloye Karachkino Chuvash
         href: https://lingconlab.ru/chuvash/
-        content: 'Tokens: 6 405'
+        content: 'Tokens: 13 738'
       - text: Meadow Mari
         href: https://lingconlab.ru/spoken_meadow_mari/
         content: 'Tokens: 11 647'
@@ -193,7 +190,7 @@ website:
         content: 'Tokens: 6 935'
       - text: Nanai
         href: https://lingconlab.ru/nanai/
-        content: 'Tokens: 4 128'
+        content: 'Tokens: 13 339'
       - text: Standard Dargwa
         href: https://lingconlab.ru/standard_dargwa/
         content: 'Tokens: 6 382 427'
